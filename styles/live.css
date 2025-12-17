@@ -1,0 +1,132 @@
+/* header nav hover */
+header .h_bottom_wrap .h_bottom nav > a:nth-of-type(2) {color: #fff;}
+
+/* 시청예약 */
+.reservation_bg {
+    position: absolute; width: 100%; height: 100vh;
+    z-index: 900; display: flex; justify-content: center;
+    background: rgba(0, 0, 0, 0.5); top: 0;
+    align-items: center;
+}
+.reservation_bg .reservation {
+    width: 560px; position: relative;
+}
+.reservation_bg .reservation .reservation_title {
+    height: 86px; display: flex; align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #1351f9; padding: 0 35px;
+}
+.reservation_bg .reservation .reservation_title h2 {
+    color: #fff; font-size: 1.5rem;
+    font-weight: 700;
+}
+.reservation_bg .reservation .reservation_info {
+    padding: 286px 0; background: #252525;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex; justify-content: center;
+    align-items: center; flex-flow: column nowrap;
+}
+.reservation_bg .reservation .reservation_info p {
+    font-size: 1.375rem; color: #a5a5a5;
+}
+.reservation_bg .reservation .reservation_info p:last-child {
+    margin-top: 13px;
+}
+.reservation_bg .reservation .reservation_info p img {}
+.reservation_bg .reservation #close {
+    position: absolute; top: 0; right: -40px;
+}
+.reservation_bg .reservation #close:hover {
+    filter: brightness(50%);
+}
+.reservation_bg .reservation #close img {}
+
+/* main */
+main {background: #1b1b1b;}
+main .title_wrap {
+    background: #252525;
+    margin-bottom: 40px; padding: 40px 0;
+}
+main .title_wrap .title {
+    max-width: 1240px; margin: 0 auto;
+    display: flex; justify-content: space-between;
+}
+main .title_wrap .title h2 {
+    color: #fff; font-size: 1.5rem;
+}
+main .title_wrap .title .reservation_table {display: flex;}
+main .title_wrap .title .reservation_table a {
+    margin-right: 20px; color: #a5a5a5;
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .title_wrap .title .reservation_table a:last-child {margin: 0;}
+main .title_wrap .title .reservation_table a img {margin-right: 10px;}
+main .live {}
+main .live .live_title {
+    max-width: 1240px; margin: 0 auto 20px;
+    display: flex; justify-content: space-between;
+}
+main .live .live_title h2 {
+    font-size: 1.5rem; color: #fff;
+    font-weight: 700;
+}
+main .live .live_title #filter {
+    background-color: #252525; color: #a5a5a5;
+    padding: 8px 60px 8px 20px;
+    background-image: url(../images/live/filter.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+main .live .live_title #filter option {color: #a5a5a5;}
+main .live .live_video_wrap {
+    display: flex; flex-flow: column nowrap;
+    justify-content: center;
+}
+main .live .live_video_wrap .live_video {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center; margin-bottom: 40px;
+}
+main .live .live_video_wrap .live_video a {
+    width: 240px; margin-right: 10px; transition: 0.5s 0.5s;
+    border-radius: 10px;
+}
+main .live .live_video a .video_wrap {
+    position: relative;
+}
+main .live .live_video a .video_wrap video {
+    border-radius: 10px; width: 100%;
+    transition: 0.5s 0.5s; 
+}
+main .live .live_video a .video_wrap .playbar {
+    background: rgba(0, 0, 0, 0.2); border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+    width: 100%; height: 5px;
+    position: absolute; bottom: 3px;
+}
+main .live .live_video a .video_wrap .playbar .play {
+    background: #1351f9; border-bottom-left-radius: 10px;
+    width: 30%; height: 5px;
+}
+main .live .live_video a .video_wrap .muted {
+    width: 30px; position: absolute;
+    bottom: 10px; right: 10px;
+}
+main .live .live_video a .video_wrap .muted img {
+    width: 100%;
+}
+main .live .live_video a .video_wrap p {
+    padding: 4px 8px; position: absolute;
+    top: 10px; left: 10px; font-size: 0.75rem;
+    background: #000000cc; color: #1351f9;
+    font-weight: 700;
+    border: 1px solid #000; border-radius: 5px;
+}
+main .live .live_video a .video_title {padding: 8px 12px 0 0;}
+main .live .live_video a .video_title h3 {
+    color: #a5a5a5; margin-bottom: 4px;
+}
+main .live .live_video a .video_title p {
+    color: #a5a5a5; font-size: 0.875rem;
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width:1240px){
+    main .purchasing_wrap .purchasing_title h1 {
+        padding: 0 60px;
+    }
+    main .purchasing_wrap .purchasing_middle {
+        padding: 0 60px;
+    }
+}

@@ -1,0 +1,76 @@
+/* header nav hover */
+header .h_bottom_wrap .h_bottom nav > a:last-child {color: #fff;}
+
+/* main */
+main {background: #1b1b1b;}
+main .mypage_top_wrap {
+    background: #252525; padding: 17px 0;
+    border-bottom: 1px solid #1b1b1b;
+}
+main .mypage_top_wrap .mypage_top {
+    max-width: 1240px; margin: 0 auto;
+    display: flex; justify-content: flex-end;
+}
+main .mypage_top_wrap .mypage_top a {
+    margin-right: 20px; display: flex;
+    color: #a5a5a5; font-size: 0.875rem;
+    align-items: center;
+}
+main .mypage_top_wrap .mypage_top a img {margin-right: 8px;}
+main .mypage_top_wrap .mypage_top a span {
+    width: 20px; height: 20px; padding: 0 5px;
+    margin-left: 8px;
+    border-radius: 50%; background: #fff;
+}
+main .mypage_bottom_wrap {
+    background: #252525; height: 144px; 
+}
+main .mypage_bottom_wrap .mypage_bottom {
+    max-width: 1240px; margin: 0 auto;
+    padding: 24px 0; height: 100%;
+    display: flex; align-items: center;
+}
+main .mypage_bottom_wrap .mypage_bottom .mypage_left {
+    display: flex; width: 50%;
+    border-right: 1px solid #1b1b1b;
+    justify-content: flex-start;
+}
+main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_photo {margin-right: 20px;}
+main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_photo img {width: 78px;}
+main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_info {}
+main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_info h2 {
+    color: #fff; font-size: 1.5rem;
+}
+main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_info p {
+    color: #a5a5a5; margin: 20px 0 5px 0;
+}
+main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_info a {
+    color: #fff; display: flex; align-items: center;
+}
+main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_info a img {margin-left: 5px;}
+main .mypage_bottom_wrap .mypage_bottom .mypage_right {
+    width: 50%; text-align: right;
+}
+main .mypage_bottom_wrap .mypage_bottom .mypage_right a {
+    color: #a5a5a5; margin-left: 60px;
+}
+main .mypage_bottom_wrap .mypage_bottom .mypage_right a span {
+    color: #fff; margin-left: 12px;
+}
+main section {
+    max-width: 1240px; margin: 0 auto;
+}
+main .record {margin-top: 40px;}
+main section h2 {
+    color: #fff; font-size: 1.5rem;
+    margin-bottom: 24px;
+}
+main section .data {
+    padding: 80px 0; display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+main section .data img {width: 74px;}
+main section .data span {
+    color: #a5a5a5; margin-top: 12px;
+}

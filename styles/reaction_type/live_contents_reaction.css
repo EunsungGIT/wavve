@@ -1,0 +1,45 @@
+@media screen and (max-width:1240px){
+    main .video_title {
+        padding: 40px 60px 0;
+    }
+    main .schedule {
+        padding: 40px 60px;
+    }
+    main .all_schedule {
+        padding: 0 60px;
+    }
+    main .schedule .time_table .swiper_schedule #schedule_prev {
+        left: -30px;
+    }
+    main .schedule .time_table .swiper_schedule #schedule_next {
+        right: -30px;
+    }
+    main .all_schedule .live_video a {
+        width: calc(100% / 3 - 10px);
+    }
+}
+@media screen and (max-width:768px){
+    main .video_title .title_top {
+        flex-flow: column nowrap;
+    }
+    main .video_title .title_top h2 {
+        font-size: 1.5rem;
+    }
+    main .video_title .title_top #playBtn {
+        margin: 10px 0;
+    }
+    main .schedule .time_table .swiper_schedule .swiper-slide i {
+        display: none;
+    }
+    main .all_schedule .recommend section h2 {
+        font-size: 1.25rem;
+    }
+    main .all_schedule .live_video a {
+        width: calc(100% / 2 - 10px);
+    }
+}
+@media screen and (max-width:768px){
+    main .all_schedule .live_video a {
+        width: 100%;
+    }
+}

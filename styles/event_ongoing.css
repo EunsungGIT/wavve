@@ -1,0 +1,319 @@
+main .event_ongoing_wrap {
+    background: #1b1b1b;
+}
+/* 상단 타이틀 선물상자 */
+main .event_ongoing_wrap .event_ongoing_title {
+    background:  #252525;
+    justify-content: center;
+    text-align: center;
+    padding: 55px 0 55px 0px;
+}
+main .event_ongoing_wrap .event_ongoing_title .event_ongoing_photo {}
+main .event_ongoing_wrap .event_ongoing_title .event_ongoing_photo img {}
+
+main .event_ongoing_wrap .event_ongoing_title h1 {
+    font-size: 24px; color: #fff;
+}
+/* 선물상자 끝 */
+/* 중간 메인  */
+main .event_ongoing_wrap .event_ongoing_middle {
+    width: 1240px; margin: 0 auto;
+}
+/* 진행중 이벤트, 당첨자 발표 타이틀 탭*/
+main .event_ongoing_wrap .event_ongoing_middle .event_ongoing_title_tap {
+    border-bottom: 1px solid #2f2f2f;
+    height: 68px; font-size: 1.125rem;
+}
+main .event_ongoing_wrap .event_ongoing_middle .event_ongoing_title_tap .tap_taget {
+    color: #fff; font-size: 1.125rem;
+    border-bottom: 4px solid #1351f9;
+    line-height: 63px;  
+    padding: 0 10px 19px;
+}
+/* 당첨자 발표 탭 */
+main .event_ongoing_wrap .event_ongoing_middle .event_ongoing_title_tap .not_tap_taget {
+    color: #a5a5a5; font-size: 1.125rem;
+}
+
+.event_ongoing_title_tap a{
+    /* 18px - > 1.125rem */
+    color: #fff; font-size: 1.125rem;
+}
+/* 진행중 이벤트, 당첨자 발표 타이틀 탭 끝*/
+
+/* 메인 타이틀 [신년특집], 목록, 2024-01-22 ~ 전체묶음*/
+.content_wrap1 .event_ongoing_main_title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* [신년특집], 목록 */
+.event_ongoing_main_title .ongoing_title_top {
+    display: flex; justify-content: space-between;
+}
+
+/* [신년특집] */
+.event_ongoing_main_title h1 {
+     /* 30px; -> 1.875rem */ 
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* 2014-01-22 */
+.event_ongoing_main_title .event_ongoing_date {
+    font-size: 18px; color: #a5a5a5; 
+}
+
+/* 목록 리스트 */
+.event_ongoing_main_title a {
+    color: #a5a5a5; 
+    margin-bottom: 17px; 
+    display: flex; 
+}
+
+.event_ongoing_main_title a img {
+    width: 42px; height: 42px;
+} 
+
+/* 목록 글자 */
+.content_wrap1 .event_ongoing_main_title a .list_text {
+    padding-top: 10px; padding-left: 5px;  color: #a5a5a5; 
+} 
+
+/* 하위 내용들 전체 박스 */
+.event_ongoing_content {}
+
+/* ★ 이벤트 진행중 이미지 - > 코드  */
+.event_ongoing_content .ongoing_main_container {
+    position: relative;
+}
+
+/* background images, left, right 총괄 */
+.ongoing_container_title{
+    background-image: url(../images/event/event_ongoing_background_img.jpg);
+    display: flex; padding: 30px; 
+    justify-content: center;
+}
+/* left */
+.ongoing_container_title .ongoing_container_left {
+    position: relative; top: 60px;
+}
+/* 메인 이미지 */
+.ongoing_container_title .ongoing_container_left img {}
+
+/* right */
+.ongoing_container_title .ongoing_container_right {
+    display: flex; flex-flow: column wrap;
+    margin-left: 20px; margin-top:60px;
+}
+.ongoing_container_h1_m {
+    display: none;
+}
+/* background images -> h1 [신년특집] */
+.event_ongoing_content .ongoing_main_container .ongoing_container_title .ongoing_container_right .ongoing_container_h1, .ongoing_container_h1_m {
+    color: #fff; font-size: 40px; margin-bottom: 30px;
+    letter-spacing: -1.5px;
+}
+.event_ongoing_content .ongoing_main_container .ongoing_container_title .ongoing_container_right .ongoing_content {
+    color: #717171; font-size: 18px; margin-bottom: 30px;
+    line-height: 1.5; 
+}
+/*  background images -> 기간 */
+.event_ongoing_content .ongoing_main_container .ongoing_container_title .ongoing_container_right .ongoing_date{
+    color: #a5a5a5; font-size: 17px; flex-flow: column nowrap;
+}
+
+.event_ongoing_content .ongoing_main_container .ongoing_container_title .ongoing_container_right .ongoing_date_content {/* 기간 과 날짜 따로주고 싶으면. */}
+
+/* 메인 흰색 박스 */
+.event_ongoing_content .ongoing_main_container .container_middle {
+    background: #f7f7f7; padding: 70px 0 30px 0;
+}
+
+/* 하위 1등 ~ 3등 이미지 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+}
+/* 이미지 구간 화이트 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box { 
+    background:#ffffff; display: flex;
+    flex-flow: column wrap;
+    padding: 30px 40px 40px 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+/* 이벤트 경품 둥근 타이틀  */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .middle_title {
+    border: 1px solid #000; border-radius: 50px;
+    padding: 7px 25px 7px 25px; color: #d0cfd7;
+    background: #000;
+    font-size: 17px;
+    font-weight:400; letter-spacing:-1px;
+    width:max-content;
+}
+/* 1등 2등 3등 이미지 or 글자 전체 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .box {
+    display:flex; justify-content: center;
+}
+/*  1등 2등 3등 이미지 or 글자 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .box .middle_title_item  {
+    margin-right:10px;
+}
+/* 이미지 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .box .middle_title_item img {
+    width:100%;
+}
+/* 이미지 3등 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .box .middle_title_item:last-child {
+    margin-right:0;
+}
+/* 1등 2등 3등만  */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .box .middle_title_item .middle_ranking {
+    justify-content: space-around;
+    text-align:center;
+    width: 85%;
+    margin-top: 5px;
+    font-weight: 500;
+}
+/* 1등 2등 3등 그 밑에 내용까지  */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .box .middle_title_item p{
+    width: 85%;
+    text-align: center;
+    font-weight: 500;
+}
+/* 당첨자 발표일 기간까지 전체 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .btm_lottery  {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    justify-content: center;
+    padding: 0px 60px 0px 0px; 
+    font-weight: 500;
+}
+/* 당첨자 발표일 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .btm_lottery .btm_lottery_day {}
+
+/* 3월 8일 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .btm_lottery .btm_day {
+    margin-left: 10px;
+    font-weight:300; 
+}
+/* 압구정 론칭기념 웨이브와 함께~ 흰박스 가장 밑 문장 전체 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .dtm_explain {}
+
+/* 압구정 론칭기념 웨이브와 함께~ 흰박스 가장 밑 문장 */
+.event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .dtm_explain p{
+    font-weight: 300; font-size: 14px;
+}
+
+/* 마지막 회색 박스 시작 */
+.event_ongoing_content .ongoing_main_container .btm_container {
+    background: #eeeeee; padding: 40px 120px 30px 70px;
+}
+/* 본 이벤트는 기획전 대상 상품~ */
+.event_ongoing_content .ongoing_main_container .btm_container .btm_container_bold {
+    font-weight: 500; color: #848484;
+}
+/* 경품 발송일로부터 1개월 */
+.event_ongoing_content .ongoing_main_container .btm_container .btm_container_span {
+    font-weight: 500; color: #848484;
+}
+/* 글 전체 */
+.event_ongoing_content .ongoing_main_container .btm_container p{
+    margin-bottom: 7px;
+    font-weight: 300; color: #848484;
+}
+
+/* 매인 이미지 - > 변환 끝*/
+.event_ongoing_content .ongoing_container {
+    width: 1224px; margin: 0 auto;
+}
+/* 하단 영화소개들 시작 */
+/* 시작 하단 영화소개 전부*/
+/* 전체 */
+.ongoing_container .ongoing_items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ongoing_container .ongoing_items .ongoing_item{
+    width: 50%;
+    padding: 20px 20px 20px 0px;
+    box-shadow: inset 0 -0.5px #717171;;
+}
+
+/* 영화 소개 각각 아이템  */
+.ongoing_container .ongoing_items .ongoing_item a {
+    display: flex;
+    align-items: center;
+}
+
+/* 영화 이미지 전체 */
+.ongoing_items .ongoing_item a .ongoing_img {
+    width: 185px; 
+
+}
+/* 개별 아이템 이미지 */
+.ongoing_items .ongoing_item a .ongoing_img img {
+    width: 185px; padding-right: 10px;
+    height: 278px; 
+}
+/* 이미지 오른쪽 span 박스 전체 */
+.ongoing_items .ongoing_item a .ongoing_span_box {
+    width: 100%; 
+}
+/* 이미지 오른쪽 span 박스*/
+.ongoing_container .ongoing_items .ongoing_item a .ongoing_span_box span {
+    width: auto;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    display: flex;
+    flex-flow: row wrap;
+}
+/* h1 제목 */
+.ongoing_container .ongoing_items .ongoing_item a .ongoing_span_box span .ongoing_h1 {
+    font-size: 18px; color:#a5a5a5; display: block;
+}
+
+/* 감독 출연진 등  ongoing_h*/
+.ongoing_container .ongoing_items .ongoing_item a .ongoing_span_box span .ongoing_h {
+    flex-flow: column nowrap; color: #a5a5a5; font-size: 14px;
+    width: 40px;
+    margin-top: 10px; margin-right: 5px;
+}
+
+/* h1 아래 엑션, 판타지 등등 */
+.ongoing_container .ongoing_items .ongoing_item a .ongoing_span_box span .ongoing_hc {font-size: 14px; color: #717171;
+    flex-flow: column wrap; 
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* 감독 출연진 줄거리에 내용들 */
+.ongoing_container .ongoing_items .ongoing_item a .ongoing_span_box span .ongoing_c {
+    font-size: 16px; color: #717171;
+    width: calc(100% - 70px);
+    margin-top: 10px;
+}
+/* 하단부 페이지네이션 */
+main .event_ongoing_wrap .page_a {
+    padding-top: 120px; padding-bottom: 70px;
+    text-align: center; 
+}
+main .event_ongoing_wrap .page_a .taget {color: #fff; 
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 8px 14px 8px 14px; 
+    font-size: 14px; 
+}
+main .event_ongoing_wrap .page_a a {margin-right: 18px;
+    color: #a5a5a5;
+}
+

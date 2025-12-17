@@ -1,0 +1,23 @@
+@media screen and (max-width:1240px){
+    main .title_wrap .title {
+        padding: 0 60px;
+    }
+    main .movie {
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width:1024px){
+    main .movie a {
+        width: calc(100% / 3 - 10px);
+    }
+}
+@media screen and (max-width:768px){
+    main .movie a {
+        width: calc(100% / 2 - 10px);
+    }
+}
+@media screen and (max-width:430px){
+    main .movie a {
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+main {}
+main .category_top {
+    background: #252525;
+    margin-bottom: 40px; padding: 40px 0;
+}
+main .category_top h2 {
+    max-width: 1240px; margin: 0 auto;
+    font-size: 1.5rem; color: #fff;
+}
+main section {
+    max-width: 1240px; margin: 0 auto 80px;
+}
+main section .title {
+    display: flex; justify-content: space-between;
+    margin-bottom: 20px; align-items: flex-end;
+}
+main section .title h2 {
+    font-size: 1.5rem; color: #fff;
+}
+main section .title a {
+    color: #a5a5a5;
+}
+main section .title a img {}
+main section .swiper_category {
+    overflow: hidden; position: relative;
+}
+main section .swiper_category .category_wrap {}
+main section .swiper_category .category_wrap a {
+    width: 240px; border-radius: 10px;
+    overflow: hidden;
+}
+main section .swiper_category .category_wrap a:hover img {
+    transform: scale(1.1); 
+}
+main section .swiper_category .category_wrap a img {
+    width: 100%; border-radius: 10px; transition: 0.2s;
+}
+main section .swiper_category .swiper-button-prev {
+    position: absolute; left: 0;
+    transform: translateX(-30px); transition: 0.2s;
+}
+main section:hover .swiper_category .swiper-button-prev {
+    transform: translateX(0);
+}
+main section .swiper_category .swiper-button-prev::after {display: none;}
+main section .swiper_category .swiper-button-next {
+    position: absolute; right: 0;
+    transform: translateX(30px); transition: 0.2s;
+}
+main section:hover .swiper_category .swiper-button-next {
+    transform: translateX(0);
+}
+main section .swiper_category .swiper-button-next::after {display: none;}

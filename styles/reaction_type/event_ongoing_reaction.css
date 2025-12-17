@@ -1,0 +1,113 @@
+@media screen and (max-width:1240px) {
+    main .event_ongoing_wrap .event_ongoing_middle {
+        width: 100%;
+    }
+
+    main .event_ongoing_wrap .event_ongoing_middle .event_ongoing_main_title a span {
+        display: none;
+    }
+
+    .content_wrap1 {
+        padding: 0 60px;
+    }
+
+    /*  */
+    .ongoing_container .ongoing_items .ongoing_item {
+        width: 100%;
+    }
+
+    .event_ongoing_content .ongoing_main_container .container_middle .middle_content {
+        background: violet;
+        width: calc(100% - 100px);
+        margin: 0 auto;
+    }
+
+    .main .event_ongoing_wrap .event_ongoing_middle {
+        background: violet;
+        padding: 0px 10px 20px 20px;
+    }
+
+    /*1240 조건 종료*/
+}
+    @media screen and (max-width:768px) {
+        .event_ongoing_content .ongoing_main_container .container_middle .middle_content .middle_white_box .box {
+            flex-direction: column;
+        }
+
+        .event_ongoing_content .ongoing_main_container .container_middle .middle_content {
+            width: calc(100% - 50px);
+            margin: 0 auto;
+        }
+
+        .ongoing_container_title {
+            flex-direction: column;
+        }
+
+        main .event_ongoing_wrap .event_ongoing_middle .event_ongoing_title_tap {
+            display: none;
+        }
+
+        .event_ongoing_title {
+            display: none;
+        }
+
+        .content_wrap1 {
+            padding: 0 30px;
+        }
+
+        .event_ongoing_content .ongoing_main_container .btm_container {
+            padding: 16px
+        }
+
+        .ongoing_container_h1_m {
+            display: block;
+            font-size: 2.1875rem;
+            margin-bottom: auto;
+        }
+
+        .ongoing_container_h1 {
+            display: none;
+        }
+
+        .ongoing_container_title .ongoing_container_left {
+            text-align: center;
+        }
+
+        .event_ongoing_main_title h1 {
+            font-size: 1.125rem;
+        }
+
+        .content_wrap1 .event_ongoing_main_title {
+            margin-top: 20px;
+        }
+
+        .main .event_ongoing_wrap .event_ongoing_middle {
+            
+        }
+
+        .ongoing_items .ongoing_item a .ongoing_img img {
+            width: 146px;
+            padding-right: 10px;
+            height: 220px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+        }
+        /* 영화 소개 각각 아이템  */
+        .ongoing_container .ongoing_items .ongoing_item a .ongoing_first_img img {
+        display: flex;
+        align-items: center;
+        margin-bottom: 55px;
+    }
+
+    .ongoing_container_title .ongoing_container_left img {
+        margin-bottom: 25px;
+        width: 200px; height: 300px;
+    }
+        /*1240 조건 종료*/
+    .event_ongoing_main_title a img {
+        width: 30px;
+        height: 30px;
+    }
+    }
+
+    /*768 조건 종료*/

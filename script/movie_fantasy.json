@@ -1,0 +1,102 @@
+[
+    {
+        "title":"찰리와 초콜릿공장",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_01",
+        "link":"contents.html"
+    },
+    {
+        "title":"해리포터와 마법사의 돌",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_02",
+        "link":"contents02.html"
+    },
+    {
+        "title":"해리포터와 비밀의 방",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_03",
+        "link":"contents03.html"
+    },
+    {
+        "title":"해리포터와 아즈카반의 죄수",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_04",
+        "link":"contents04.html"
+    },
+    {
+        "title":"해리포터와 불의 잔",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_05",
+        "link":"contents05.html"
+    },
+    {
+        "title":"해리포터와 불사조 기사단",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_06",
+        "link":"contents.html"
+    },
+    {
+        "title":"해리포터와 혼혈 왕자",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_07",
+        "link":"contents02.html"
+    },
+    {
+        "title":"해리포터와 죽음의 성물1",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_08",
+        "link":"contents03.html"
+    },
+    {
+        "title":"해리포터와 죽음의 성물2",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_09",
+        "link":"contents04.html"
+    },
+    {
+        "title":"날씨의 아이",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_10",
+        "link":"contents05.html"
+    },
+    {
+        "title":"반지의 제왕 반지 원정대",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_11",
+        "link":"contents.html"
+    },
+    {
+        "title":"인터스텔라",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_12",
+        "link":"contents02.html"
+    },
+    {
+        "title":"반지의 제왕 두개의 탑",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_13",
+        "link":"contents03.html"
+    },
+    {
+        "title":"여름을 향한 터널 이별의 출구",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_14",
+        "link":"contents04.html"
+    },
+    {
+        "title":"사자",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_15",
+        "link":"contents05.html"
+    },
+    {
+        "title":"거울 속 외딴 성",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_16",
+        "link":"contents.html"
+    },
+    {
+        "title":"그린델왈드의 범죄",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_17",
+        "link":"contents02.html"
+    },
+    {
+        "title":"신비한 동물사전",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_18",
+        "link":"contents03.html"
+    },
+    {
+        "title":"포제서",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_19",
+        "link":"contents04.html"
+    },
+    {
+        "title":"스파이더맨",
+        "thumbnail":"./images/data_img/movie_fantasy/movie_fantasy_banner_20",
+        "link":"contents05.html"
+    }
+]

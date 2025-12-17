@@ -1,0 +1,203 @@
+/* 팝업 */
+.popup {
+    position: fixed; width: 100%; z-index: 9999;
+    height: 100vh; background: rgba(0, 0, 0, 0.8) ;
+}
+.popup .popup_background{}
+.popup .popup_background .contents {
+    margin: 0 auto; width: 450px; padding-top: 100px;
+}
+.popup .popup_background .contents .top {
+    display: flex;
+}
+.popup .popup_background .contents .top .popup_img {
+    background-image: url(../images/popup/popup.jpg);
+    width: 420px; height: 600px; border-radius: 10px; background-position: center; 
+}
+.popup .popup_background .contents .top .close{
+    position: relative; left: 10px;
+}
+.popup .popup_background .contents .top .close:hover {
+    filter: brightness(50%);
+}
+.popup .popup_background .contents .bottom{margin-top: 10px;}
+.popup .popup_background .contents .bottom label {
+    color: #a5a5a5; font-weight: 400;
+}
+.popup .popup_background .contents .bottom label::before{
+    border: 1px solid #a5a5a5;
+    position: relative; top: 6px;
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height:23px;
+    margin-right:8px;
+}
+.popup .popup_background .contents .bottom input:checked + label::before{
+    position: relative; top: 6px;
+    content: '';
+    display: inline-block;
+    background-image: url(../images/popup/check.png);
+    background-size: cover; 
+    width: 23px;
+    height:23px;
+    margin-right:8px;
+    border: 1px solid #1351F9;
+}
+.popup .popup_background .contents .bottom input {display:none;}
+
+/* header nav hover */
+header .h_bottom_wrap .h_bottom nav > a:first-child {color: #fff;}
+    
+/*main 시작*/
+/* main 추가한 부분! */
+main {
+    margin: 0 auto;
+    background: #1b1b1b;
+}
+main .wrap {}
+main .wrap #top_container {
+    margin-bottom: 80px;
+    overflow: hidden; position: relative;
+}   
+main .wrap #top_container #top_images {}
+/* 이미지 공통 클래스 슬라이더   */
+main .wrap #top_container #top_images .top_img {
+    /* #top_img1~4 - > top_img 공통 */
+    opacity: 0.5;
+}
+main .wrap #top_container #top_images .swiper-slide-active {
+    opacity: 1 !important;
+    width: 1240px;
+    border-radius: 15px;
+}
+main .wrap #top_container #top_images .top_img a {}
+main .wrap #top_container #top_images .top_img a img {
+    width: 100%;
+    border-radius: 15px;
+}
+main .wrap #top_container #top_images .top_img a .top_img_font {
+    position: absolute; top: 10px; left: 0px;
+} 
+/* 공통 클래스 끝 */
+
+/* 메인 배너 양옆 버튼 시작 --- */
+main .wrap #top_container #top_prev {
+    position: absolute; top: 40%; left: 100px;
+    width: 100px;
+}
+main .wrap #top_container #top_prev:hover {
+    filter: brightness(50%);
+}
+main .wrap #top_container #top_prev::after {display: none;}
+main .wrap #top_container #top_prev img {
+    width: 100%;
+}
+main .wrap #top_container #top_next {
+    position: absolute; top: 40%; right: 100px;
+    width: 100px;
+}
+main .wrap #top_container #top_next:hover {
+    filter: brightness(50%);
+}
+main .wrap #top_container #top_next::after{display: none;}
+
+main .wrap #top_container #top_next img {
+    width: 100%;
+}
+/* swiper-pagination  */
+main .wrap #top_container .btm_btn {
+    margin-top: 20px;
+}
+/* 페이지네이션 */
+main .wrap #top_container .btm_btn .swiper-pagination {}
+/* 페이지네이션 색상적용 */
+main .wrap #top_container .btm_btn .swiper-pagination .swiper-pagination-bullet {
+    background: #fff; width: 10px; height: 10px;
+}
+/* 페이지네이션 끝 */
+main .wrap #top_container .btm_btn .btn_pagination {
+    width: 300px; margin: 0 auto;
+}
+main .wrap #top_container .btm_btn .btn_pagination a {
+    display: inline-block;
+    position: relative; left: 70px;
+    z-index: 100;
+}
+main .wrap #top_container .btm_btn .btn_pagination a img {}
+
+/*밑에 하단 슬라이드 시작*/
+
+main .wrap .middle_wrap {
+    position: relative;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+main .wrap .middle_wrap .img_container1 {
+    margin-bottom: 80px;
+}
+/* 맨 밑 슬라이드 */
+main .wrap .middle_wrap .img_container1_btm {
+    margin-bottom: 130px;
+}
+main .wrap .middle_wrap .img_container1 .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+main .wrap .middle_wrap .img_container1 .title span {
+    font-size: 1.5rem; color: #fff;
+}
+main .wrap .middle_wrap .img_container1 .title a {
+    color: #a5a5a5;
+}
+main .wrap .middle_wrap .img_container1 .title a img {}
+/* 믿고 보는 웨이브 에디터 추천작 */
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images {
+    position: relative;
+    overflow: hidden;
+    /* 오직 웨이브에서 위에 로고표시 */
+}
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .swiper_wavve_img {
+    border-radius: 25px; 
+}
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .swiper_wavve_img .swiper-slide {
+    overflow: hidden; width: 240px;
+    border-radius: 15px;
+}
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .swiper_wavve_img .swiper-slide img {
+    width: 100%; border-radius: 15px;
+}
+/* 오직 웨이브에서 위에 로고표시 */
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .swiper_wavve_img .swiper-slide .wavve_img_logo {
+    width: 44px; position: absolute; top: 0px; right: 0px; border-radius: 0;
+}
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .swiper_wavve_img .swiper-slide img:hover {
+    transform: scale(1.1); transition:  0.3s;
+}
+
+/* 좌우 버튼 시작 */
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .prev {
+    position: absolute;
+    top: 50%; left: 0px;
+    transform: translateX(-30px);
+    transition: 0.2s;
+}
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .prev::after {
+    display: none;
+}
+main .wrap .middle_wrap .img_container1:hover .swiper_wavve_images .prev{
+    transform: translateX(0);
+}
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .next {
+    position: absolute;
+    top: 50%; right: 0px;
+    transform: translateX(30px);
+    transition: 0.2s;
+}
+main .wrap .middle_wrap .img_container1 .swiper_wavve_images .next::after {
+    display: none;
+}
+main .wrap .middle_wrap .img_container1:hover .swiper_wavve_images .next {
+    transform: translateX(0);
+}

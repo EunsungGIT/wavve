@@ -1,0 +1,51 @@
+main {
+    max-width: 100%;
+    background: #1b1b1b;}
+main .background {
+}
+main .background .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; 
+    align-items: center;
+    padding: 140px;
+}
+main .background .contents h2 {
+    text-align: center;font-size: 2.25rem; color: #fff; margin-top: 40px    ;
+}
+main .background .contents .img {
+    text-align: center;
+}
+main .background .contents .img img {
+    width: 94px; height: 94px;
+}
+main .background .contents .text { 
+    display: flex; flex-flow: column; 
+    align-items: center;
+    margin: 20px 0 60px; 
+}
+
+main .background .contents .text span {color: #a5a5a5;}
+main .background .contents .text span:nth-child(1){
+    padding-bottom: 5px;
+}
+main .background .contents ul {
+    max-width: 480px;
+    display: flex; margin:  0 auto;
+}
+main .background .contents ul li  {
+    border: 1px solid #e5e5e5; border-radius: 6px;
+    padding: 41px 0 36px; width: 236px; 
+} 
+main .background .contents ul li:nth-child(1){margin-right: 8px;}
+main .background .contents ul li a {
+    display: flex; flex-flow: column  nowrap;
+    align-items: center;
+}
+main .background .contents ul li a img  {
+    width: 52px; height: 72px;
+}
+main .background .contents ul li a span {
+    color: #fff; margin-top: 13px;
+}

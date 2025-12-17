@@ -1,0 +1,42 @@
+/* 코인충전 팝업창 기본 사이즈 */
+@media screen and (max-width:730px){
+    /* 최종결제 금액 3,000원 */
+    #frm_payment1 fieldset .charging_content .coin_result .right,
+    #frm_payment2 fieldset .charging_content .coin_result .right {
+        text-align: center;
+    }
+    form fieldset .card_btm_btn li {
+        width: 100%;
+    }
+    form fieldset .card_btm_btn li button {
+        width:100%; height:46px; border-radius:30px; color:#fff;
+    }
+}
+
+@media screen and (max-width:510px){
+    /* 라디오 버튼  */
+    #frm_payment1 fieldset .charging_content .charging_coin_list .right, #frm_payment2 fieldset .charging_content .charging_coin_list .right {
+        width: calc(100% - 150px);
+        padding-left: 0px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    /* 공통 버튼  */
+    form fieldset .card_btm_btn {display:block;}
+
+    form fieldset .card_btm_btn li button {
+        width:100%; height:46px; border-radius:30px; color:#fff;
+    }
+    form fieldset .card_btm_btn li button[id*=cancle] {
+        background:#5e5e5e;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    form fieldset .card_btm_btn li button[id*=payment] {
+        background:#1351f9;
+        width: 100%;
+        text-align: center;
+    }
+}

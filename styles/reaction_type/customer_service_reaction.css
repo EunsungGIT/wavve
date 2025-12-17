@@ -1,0 +1,100 @@
+@media screen and (max-width:1240px){
+    main h1 {
+        padding: 0 60px;
+    }
+    main .customer_service {
+        padding: 0 60px;
+    }
+    main .customer_service .notice .notice_title #noticeFrm fieldset #notice_search {
+        width: 200px; font-size: 0.75rem;
+    }
+    main .customer_service .faq .faq_top {
+        padding: 20px 40px;
+    }
+    main .customer_service .faq .faq_top h2 {
+        font-size: 1.25rem;
+    }
+    main .customer_service .faq .faq_top .faq_often {
+        display: none;
+    }
+    main .customer_service .faq .faq_top #faqFrm fieldset {
+        flex-flow: column nowrap;
+    }
+    main .customer_service .faq .faq_top #faqFrm fieldset #faqBtn {
+        width: 100%; margin: 10px 0;
+    }
+    main .customer_service .inquiry .inquiry_top {
+        display: flex; justify-content: space-between;
+    }
+    main .customer_service .inquiry .inquiry_top .number_time {
+        flex-flow: column nowrap;
+    }
+    main .customer_service .inquiry .inquiry_top .number_time .number {
+        margin-bottom: 10px;
+    }
+    main .customer_service .inquiry .inquiry_top .number_time p {
+        padding: 0; margin: 0;
+    }
+    main .customer_service .inquiry .inquiry_top .number_time p::after {
+        background: none;
+    }
+    main .customer_service .inquiry .inquiry_top .inquiry_help p {
+        display: none;
+    }
+    main .customer_service .agree .agree_category {
+        display: flex; flex-flow: row wrap;
+    }
+}
+@media screen and (max-width:768px){
+    main .customer_service .contents_title a {
+        height: 30px; font-size: 0.75rem;
+    }
+    main .customer_service .notice .notice_title .notice_category a{
+        display: none;
+    }
+    main .customer_service .notice .notice_info dl dt {
+        font-size: 0.75rem;
+    }
+    main .customer_service .notice .notice_info dl dd {
+        font-size: 0.75rem;
+    }
+    main .customer_service .notice .notice_info dl dd a {
+        font-size: 0.75rem;
+    }
+    main .customer_service .faq .faq_category {
+        display: none;
+    }
+    main .customer_service .faq .faq_info a h3 {
+        display: none;
+    }
+    main .customer_service .faq .faq_info a p {
+        font-size: 0.75rem;
+    }
+    main .customer_service .faq .faq_info .faq_contents {
+        padding: 25px;
+    }
+    main .customer_service .faq .faq_info .faq_contents p {
+        font-size: 0.75rem;
+    }
+    main .customer_service .inquiry .inquiry_top {
+        flex-flow: column nowrap;
+    }
+    main .customer_service .inquiry .inquiry_top .number_time .number {
+        font-size: 1.5rem;
+    }
+    main .customer_service .inquiry .inquiry_top .number_time .number img {
+        width: 20px;
+    }
+    main .customer_service .inquiry .inquiry_top .number_time p {
+        font-size: 0.75rem;
+    }
+    main .customer_service .inquiry .inquiry_top .inquiry_help #inquiryBtn {
+        width: 100%;
+    }
+    main .customer_service .agree .agree_contents .agree_title .agree_left p {
+        display: none;
+    }
+    main .customer_service .agree .agree_contents .agree_info p {
+        font-size: 0.75rem;
+    }
+}

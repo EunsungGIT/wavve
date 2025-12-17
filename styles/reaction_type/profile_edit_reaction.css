@@ -1,0 +1,70 @@
+@media screen and (max-width:1240px){
+    section {padding: 0 60px;}
+    section #profileFrm fieldset h2{font-size:2rem;}
+    section #profileFrm fieldset p img {width: 140px;}
+    section #profileFrm fieldset a {font-size: 0.875rem;}
+    section #profileFrm fieldset a img { width: 16px;  }
+    section #profileFrm fieldset label {
+        font-size: 0.875rem; padding: 8px 0;
+        }
+        section #profileFrm fieldset .profile_wrap {
+            width: 700px; height: 195px;
+        }
+        section #profileFrm fieldset label #user_name {
+            width: 373px; height: 48px;
+        }
+        section #profileFrm fieldset .profile_wrap img {width: 80px; height: 80px;}
+        section #profileFrm fieldset .profile_wrap img:nth-child(15),
+        section #profileFrm fieldset .profile_wrap img:nth-child(16){display: none;}
+        section #profileFrm fieldset .button #checkBtn,section #profileFrm fieldset .button #cancelBtn {
+            width: 190px; height: 42px;
+            font-size: 0.875rem;
+        }
+}
+@media screen and (max-width:768px){
+    section #profileFrm fieldset h2{font-size:1.875rem;}
+    section #profileFrm fieldset p img {width: 120px;}
+    section #profileFrm fieldset a {font-size: 0.75rem;}
+    section #profileFrm fieldset a img { width: 14px;  }
+    section #profileFrm fieldset label {
+        font-size: 0.75rem; padding: 6px 0;
+        }
+        section #profileFrm fieldset .profile_wrap {
+            width: 300px; height: 80px; margin-top: 40px;
+        }
+        section #profileFrm fieldset label {
+            margin-top: 20px;
+        }
+        section #profileFrm fieldset label #user_name {
+            width: 200px; height: 42px;
+        }
+        section #profileFrm fieldset label #user_name::placeholder {
+            font-size: 0.875rem;
+        }
+        section #profileFrm fieldset .profile_wrap img {width: 80px; height: 80px;}
+
+        section #profileFrm fieldset .profile_wrap img:nth-child(4),
+        section #profileFrm fieldset .profile_wrap img:nth-child(5),
+        section #profileFrm fieldset .profile_wrap img:nth-child(6),
+        section #profileFrm fieldset .profile_wrap img:nth-child(7),
+        section #profileFrm fieldset .profile_wrap img:nth-child(8),
+        section #profileFrm fieldset .profile_wrap img:nth-child(9),
+        section #profileFrm fieldset .profile_wrap img:nth-child(10),
+        section #profileFrm fieldset .profile_wrap img:nth-child(11),
+        section #profileFrm fieldset .profile_wrap img:nth-child(12),
+        section #profileFrm fieldset .profile_wrap img:nth-child(13),
+        section #profileFrm fieldset .profile_wrap img:nth-child(14),
+        section #profileFrm fieldset .profile_wrap img:nth-child(15),
+        section #profileFrm fieldset .profile_wrap img:nth-child(16){display: none;}
+        section #profileFrm fieldset .button {
+            flex-flow: column-reverse nowrap;
+            margin-top: 20px;
+        }
+        section #profileFrm fieldset .button #cancelBtn,
+        section #profileFrm fieldset .button #checkBtn {
+            width: 300px; margin: 5px 0;
+        }
+}
+@media screen and (max-width:430px){
+    
+}

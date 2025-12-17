@@ -1,0 +1,45 @@
+main {background: #1b1b1b;  }
+main .background {}
+main .background .contents {
+    padding: 170px;
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+main .background .contents .img {
+    text-align: center;
+}
+main .background .contents .img img {
+    width: 94px; height: 94px;
+}
+main .background .contents .text { 
+    display: flex; flex-flow: column; 
+    align-items: center;
+    margin: 40px 0 0; 
+}
+main .background .contents .text span {color: #a5a5a5;}
+main .background .contents .text span:nth-child(1){
+    padding-bottom: 5px;
+}
+main .background .contents .btn {
+    text-align: center; margin-top: 60px;
+}
+main .background .contents .btn a {color: #fff;}
+main .background .contents .btn .cancellation {
+    background: #5e5e5e; width: 236px;
+    padding: 17px 0;
+    line-height: 18px;
+    color: #fff;
+    border-radius: 26px; border: 0;
+    margin-bottom: 10px 
+}
+main .background .contents .btn .pw {
+    background: #1351f9; width: 316px;
+    padding: 17px 0;
+    line-height: 18px;
+    color: #fff;
+    border-radius: 26px; border: 0;
+}

@@ -1,0 +1,149 @@
+
+@media screen and (max-width:1240px){
+    main section .main_benner .benner_contents .contents_text h2 {
+        font-size: 2.375rem; color: #fff; padding-top: 190px  ;
+    }
+    main section .product_benner .benner_main .benner_contents .benner_img img {
+        width: 240px;
+    }
+    main section .main_benner .benner_contents .contents_text img {
+        width: 160px; margin: 0 auto; padding: 10px 0 30px;
+    }
+    main section .main_benner .benner_contents .contents_text span {
+        color: #fff; font-size: 1.125rem ; line-height: 30px;
+        letter-spacing: -1px;
+    }
+    main section .download .download_wrap .download_contents .contents_text h2 {
+        margin: 10px; font-size: 3.75rem; font-weight: 700; color: #23212a;
+    }
+    main section .product_benner .benner_main .benner_contents .benner_text h1 {
+        font-size: 2.65rem; font-weight: 500; margin-bottom: 20px;
+    }
+    main section .wavve_style .style_first .content_wrap .wrap_contents .text2 {
+        font-size: 1.375rem; margin-bottom: 70px; color: #23212a;
+    }
+    main section .wavve_style .style_first .content_wrap .wrap_contents h1  {
+        font-size: 4.25rem; font-weight: 700; margin: 30px 0;  color: #23212a;
+    }
+    main section .wavve_style .style_first .content_wrap .wrap_contents h1 em {
+        font-size: 4.25rem; color: #1351f9; font-weight: 700;
+    }
+    main section .wavve_style .style_first .content_wrap .wrap_contents img {
+        max-width: 80%;
+    }
+    main section .use .use_wrap .use_contents .use_text .text_box span {
+            font-size: 1.375rem; 
+    }
+    main section .use .use_wrap .use_contents .use_text h2  {
+        font-size: 3.75rem ; font-weight: 700; color: #23212a; margin: 10px 0;
+    }
+    main section .product_benner .benner_main .benner_contents .benner_text h1 {
+        font-size: 2.775rem; font-weight: 500; margin-bottom: 20px;
+    }
+    main section .product_benner #prev img {width: 40px;}
+    main section .product_benner #next img {width: 40px;}
+    main section .product_benner .benner_main .benner_contents {
+        
+    }
+}   
+
+@media screen and (max-width:1024px) {
+    .benner_img{
+        display: none;
+    }
+    main section .wavve_style .style_first .content_wrap .description {
+        margin: 50px 0 0;
+    }
+    main section .wavve_style .style_first .content_wrap .description ul li h2 {
+        font-size: 1.375rem;
+    }
+}
+@media screen and (max-width:768px){
+
+    main section .follow .follow_contents {
+        flex-flow: column nowrap;
+        padding: 60px 0; align-items: center;
+    }
+    main section .product_benner .benner_main .benner_contents .benner_img img {
+        width: 200px;
+    }
+    main section .product_benner {
+        padding: 30px 0;
+    }
+    main section .product_benner .benner_main .benner_contents .benner_text h1 {
+        font-size: 2.65rem; font-weight: 500; margin-bottom: 20px;
+    }
+    main section .main_benner .benner_contents .contents_text h2 {
+        font-size: 2.25rem; color: #fff; padding-top: 190px  ;
+    }
+    main section .main_benner .benner_contents .contents_text img {
+        width: 160px; margin: 0 auto; padding: 10px 0 30px;
+    }
+    main section .main_benner .benner_contents .contents_text span {
+        color: #fff; font-size: 1rem ; line-height: 30px;
+        letter-spacing: -1px;
+    }
+    main section .product_benner .benner_main .benner_contents .benner_text h1 {
+        font-size: 2.25rem; font-weight: 500; margin-bottom: 20px;
+    }
+    main section .product_benner .benner_main .benner_contents .benner_text  p {
+        font-size: 1rem;
+    }
+    main section .wavve_style .style_first .content_wrap .wrap_contents .text2 {
+        font-size: 1.25rem; margin-bottom: 70px; color: #23212a;
+    }
+    main section .wavve_style .style_first .content_wrap .wrap_contents h1  {
+        font-size: 4.125rem; font-weight: 700; margin: 30px 0;  color: #23212a;
+    }
+    main section .wavve_style .style_first .content_wrap .wrap_contents h1 em {
+        font-size: 4.125rem; color: #1351f9; font-weight: 700;
+    }
+    main section .wavve_style .style_first .content_wrap .wrap_contents img {
+        max-width: 80%;
+    }
+    main section .wavve_style .style_first .content_wrap .description ul  li .text span{
+        font-size: 0.875em;
+    }
+    main section .use .use_wrap .use_contents .use_text .text_box span {
+            font-size: 1.25rem; 
+    }
+    main section .download .download_wrap .download_contents .bottom_contents a img {
+        width: 200px;
+    }
+    main section .follow .follow_contents .follow_link a img {
+        width: 55px;
+    }
+    main section .follow .follow_contents .follow_text p {
+        margin-bottom: 15px; font-size: 0.875rem; text-align: center;
+    }
+    main section .follow .follow_contents .follow_text h1 {
+        font-size: 1.625rem ; font-weight: 700;     line-height: 65px;
+    }
+    main section .product_benner .benner_main .benner_contents .benner_img {
+        padding: 0;
+    }
+    main section .product_benner .page_nav {
+        text-align: center;
+    }
+    main section .product_benner #prev img {width: 35px;}
+    main section .product_benner #next img {width: 35px;}
+    .benner_img{
+        display: none;
+    }
+    main section .wavve_style .style_first .content_wrap .description ul li h2 {
+        font-size: 1.25rem;
+    }
+    main section .wavve_style .style_first .content_wrap .description ul  li .text span{
+        font-size: 0.72rem;
+    }
+    main section .download .download_wrap .download_contents .contents_text h2 {
+        font-size: 2.75rem;
+    }
+    main section .use .use_wrap .use_contents .use_text h2 {
+        font-size: 2.75rem;
+    }
+    main section .use .use_wrap .use_contents .use_text .button a {
+        width: 390px;
+    }
+
+}

@@ -1,0 +1,104 @@
+body {background: #1b1b1b;}
+main {max-width: 1240px; margin: 0 auto;}
+/* category */
+main .category {
+    margin-top: 60px;
+    display: flex; justify-content: flex-start;
+}
+main .category #seriesBtn {
+    width: 240px; height: 60px; text-align: left;
+    padding-left: 64px; position: relative;
+    border: 1px solid #717171; border-radius: 50px;
+    color: #fff;
+    transition: 0.2s;
+    display: flex; align-items: center;
+}
+main .category #seriesBtn::before {
+    width: 24px; height: 24px; content: '';
+    display: inline-block;
+    position: absolute; left: 24px;
+    background-image: url(../images/search/series.svg);
+    background-size: 24px auto;
+}
+main .category #seriesBtn::after {
+    width: 16px; height: 16px; content: '';
+    display: inline-block;
+    position: absolute; right: 24px;
+    background-image: url(../images/search/search_arrow.svg);
+    background-size: 16px auto;
+}
+main .category #seriesBtn:hover,
+main .category #movieBtn:hover {
+    width: 500px; white-space: nowrap;
+    background: #333;
+}
+main .category #seriesBtn:hover::after {
+    content: '#장르 #채널 #방영정보';
+    width: 200px; position: absolute; right: 20px;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+main .category #movieBtn {
+    width: 240px; height: 60px; text-align: left;
+    margin-left: 10px; padding-left: 64px;
+    border: 1px solid #717171; border-radius: 50px;
+    color: #fff;
+    transition: 0.2s; position: relative;
+    display: flex; align-items: center;
+}
+main .category #movieBtn::before {
+    width: 24px; height: 24px; content: '';
+    display: inline-block;
+    position: absolute; left: 24px;
+    background-image: url(../images/search/movie.svg);
+    background-size: 24px auto;
+}
+main .category #movieBtn::after {
+    width: 16px; height: 16px; content: '';
+    display: inline-block;
+    position: absolute; right: 24px;
+    background-image: url(../images/search/search_arrow.svg);
+    background-size: 16px auto;
+}
+main .category #movieBtn:hover::after {
+    content: '#장르 #국가 #개봉연도';
+    width: 200px; position: absolute; right: 20px;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+/* section */
+main section {margin-top: 40px;}
+main .movie {padding-bottom: 100px;}
+main section h2 {
+    margin-bottom: 24px;
+    font-size: 1.5rem; color: #fff;
+}
+main section .swiper_series {
+    max-width: 1240px; overflow: hidden;
+    position: relative;
+}
+main section .swiper_series .series_wrap {}
+main section .swiper_series .series_wrap a {
+    margin-right: 10px;
+}
+main section .swiper_series .series_wrap a img {
+    width: 100%; border-radius: 10px;
+    margin-bottom: 10px;
+}
+main section .swiper_series .series_wrap a span {
+    color: #a5a5a5; margin-top: 10px;
+}
+main section .swiper_series .search_prev {
+    position: absolute; top: 45%; left: 0;
+    transition: 0.2s;
+    transform: translateX(-30px);
+}
+main section .swiper_series .search_prev::after {display: none;}
+main section:hover .swiper_series .search_prev {transform: translateX(0);}
+main section .swiper_series .search_next {
+    position: absolute; top: 45%; right: 0;
+    transition: 0.2s;
+    transform: translateX(30px);
+}
+main section .swiper_series .search_next::after {display: none;}
+main section:hover .swiper_series .search_next {transform: translateX(0);}

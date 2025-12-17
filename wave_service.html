@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웨이브 서비스소개</title>
+    <link rel="shortcut icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link rel="icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/reaction_type/common_reaction.css">
+    <link rel="stylesheet" href="./styles/wave_service.css">
+    <link rel="stylesheet" href="./styles/reaction_type/wave_service.reaction.css">
+</head>
+<body>
+    <!-- <?php include("header.php");?> -->
+    <!-- 알림함 -->
+    <div class="notification_bg">
+        <div class="notification_wrap">
+            <div class="notification_top">
+                <h2>알림함</h2>
+                <a href="#"><img src="./images/icon/notification_icon.png" alt="">알림설정</a>
+            </div>
+            <div class="notification">
+                <div class="notification_bottom">
+                    <img src="./images/icon/warning.png" alt="없음">
+                    <span>알림 내역이 없어요</span>
+                </div>
+            </div>
+            <!-- 여기 알림설정 시작-->
+            <!-- 알림설정 -->
+            <div class="setting_wrap">
+                <div class="setting_contents_bottom">
+                    <div class="setting_chk_container">
+                        <div class="setting_top_inform">
+                            <div class="setting_left">
+                                <span>시청 예약 알림</span>
+                            </div>
+                            <div class="setting_right">
+                                <div class="setting_radio_style">
+                                    <span class="top_on">
+                                        <input type="radio" class="setting_chk_on" value="chk_y" name="setting_chk"
+                                            id="setting_chk_on">
+                                        <label for="setting_chk_on">ON</label>
+                                    </span>
+                                    <span class="top_off">
+                                        <input type="radio" class="setting_chk_off" value="chk_n" name="setting_chk"
+                                            id="setting_chk_off">
+                                        <label for="setting_chk_off">OFF</label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setting_btm_inform">
+                            <div class="setting_btm_left">
+                                <span>관심 프로그램 업로드 알림</span>
+                            </div>
+                            <div class="setting_btm_right">
+                                <div class="setting_radio_style">
+                                    <span class="btm_on">
+                                        <input type="radio" class="setting_chk_on" value="chk_y" name="chk" name="chk"
+                                            id="chk_on">
+                                        <label for="chk_on">ON</label>
+                                    </span>
+                                    <span class="btm_off">
+                                        <input type="radio" class="setting_chk_off" value="chk_n" name="chk"
+                                            id="chk_off">
+                                        <label for="chk_off">OFF</label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 알림설정 끝 -->
+            <div class="setting_close">
+                <a href="#" class="setting_close_btn"><img src="./images/icon/close_icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- 전체 카테고리 -->
+    <div class="category_s">
+        <div class="contents_background">
+            <div class="contents">
+                <div class="all_category">
+                    <h1>전체 카테고리</h1>
+                    <div class="scroll">
+                        <ul>
+                            <li class="first">
+                                <h2>방송</h2>
+                                <ul>
+                                    <li><a href="./classic.html"><em>CLASSIC</em></a></li>
+                                    <li><a href="./classic.html">인기 드라마</a></li>
+                                    <li><a href="./classic.html">인기 예능</a></li>
+                                    <li><a href="./classic.html">애니메이션</a></li>
+                                    <li><a href="./classic.html">키즈</a></li>
+                                    <li><a href="./classic.html">스포츠</a></li>
+                                    <li><a href="./classic.html">시사교양</a></li>
+                                    <li><a href="./classic.html">크리에이터</a></li>
+                                </ul>
+                            </li>
+                            <li class="second">
+                                <h2>해외시리즈</h2>
+                                <ul>
+                                    <li><a href="./overseas_new.html"><em>업데이트</em></a></li>
+                                    <li><a href="./overseas_new.html">독점</a></li>
+                                    <li><a href="./overseas_new.html">미드</a></li>
+                                    <li><a href="./overseas_new.html">중드</a></li>
+                                    <li><a href="./overseas_new.html">일드</a></li>
+                                    <li><a href="./overseas_new.html">영드</a></li>
+                                    <li><a href="./overseas_new.html">대드</a></li>
+                                    <li><a href="./overseas_new.html">다큐</a></li>
+                                    <li><a href="./overseas_new.html">엔터테이먼트</a></li>
+                                    <li><a href="./overseas_new.html">SF/판타지</a></li>
+                                    <li><a href="./overseas_new.html">로맨스</a></li>
+                                    <li><a href="./overseas_new.html">범죄</a></li>
+                                    <li><a href="./overseas_new.html">수사</a></li>
+                                    <li><a href="./overseas_new.html">액션</a></li>
+                                    <li><a href="./overseas_new.html">성장</a></li>
+                                    <li><a href="./overseas_new.html">사극</a></li>
+                                    <li><a href="./overseas_new.html">시대극</a></li>
+                                    <li><a href="./overseas_new.html">현대극</a></li>
+                                    <li><a href="./overseas_new.html">메디컬</a></li>
+                                    <li><a href="./overseas_new.html">코미디</a></li>
+                                    <li><a href="./overseas_new.html">미스터리</a></li>
+                                    <li><a href="./overseas_new.html">19</a></li>
+                                    <li><a href="./overseas_new.html">기타</a></li>
+                                </ul>
+                            </li>
+                            <li class="third">
+                                <h2>영화</h2>
+                                <ul>
+                                    <li><a href="./new_movie.html"><em>업데이트</em></a></li>
+                                    <li><a href="./new_movie.html">드라마</a></li>
+                                    <li><a href="./new_movie.html">로맨스</a></li>
+                                    <li><a href="./new_movie.html">코미디</a></li>
+                                    <li><a href="./new_movie.html">액션</a></li>
+                                    <li><a href="./new_movie.html">SF/판타지</a></li>
+                                    <li><a href="./new_movie.html">모험</a></li>
+                                    <li><a href="./new_movie.html">범죄</a></li>
+                                    <li><a href="./new_movie.html">공포</a></li>
+                                    <li><a href="./new_movie.html">음악</a></li>
+                                    <li><a href="./new_movie.html">애니메이션</a></li>
+                                    <li><a href="./new_movie.html">다큐멘터리</a></li>
+                                    <li><a href="./new_movie.html">전쟁/재난</a></li>
+                                    <li><a href="./new_movie.html">가족</a></li>
+                                    <li><a href="./new_movie.html">에로티시즘</a></li>
+                                </ul>
+                            </li>
+                            <li class="four">
+                                <h2>영화플러스</h2>
+                                <ul>
+                                    <li><a href="./movie_plus.html"><em>인기</em></a></li>
+                                    <li><a href="./movie_plus.html"><em>이벤트/할인</em></a></li>
+                                    <li><a href="./movie_plus.html">드라마</a></li>
+                                    <li><a href="./movie_plus.html">로맨스</a></li>
+                                    <li><a href="./movie_plus.html">코미디</a></li>
+                                    <li><a href="./movie_plus.html">액션</a></li>
+                                    <li><a href="./movie_plus.html">SF/판타지</a></li>
+                                    <li><a href="./movie_plus.html">모험</a></li>
+                                    <li><a href="./movie_plus.html">범죄</a></li>
+                                    <li><a href="./movie_plus.html">공포</a></li>
+                                    <li><a href="./movie_plus.html">애니메이션</a></li>
+                                    <li><a href="./movie_plus.html">다큐멘터리</a></li>
+                                    <li><a href="./movie_plus.html">전쟁/재난</a></li>
+                                    <li><a href="./movie_plus.html">가족</a></li>
+                                    <li><a href="./movie_plus.html">에로티시즘</a></li>
+                                </ul>
+                            </li>
+                            <li class="five">
+                                <h2>LIVE</h2>
+                                <ul>
+                                    <li><a href="./culture.html">정주행 채널</a></li>
+                                    <li><a href="./culture.html">지상파</a></li>
+                                    <li><a href="./culture.html">종편/보도</a></li>
+                                    <li><a href="./culture.html">홈쇼핑</a></li>
+                                    <li><a href="./culture.html">드라마/예능</a></li>
+                                    <li><a href="./culture.html">시사/교양</a></li>
+                                    <li><a href="./culture.html">영화/스포츠</a></li>
+                                    <li><a href="./culture.html">키즈/아내</a></li>
+                                    <li><a href="./culture.html">라디오/음악</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="close">
+                    <a href="#" id="close_btn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 채팅 -->
+    <div id="chat">
+        <button type="button" id="chat_icon"><img src="./images/common/chat.jpg" alt="채팅하기"></button>
+        <div class="chat_box">
+            <h2><img src="./images/common/logo.svg" alt="Wavve">문의하기</h2>
+            <div class="chat_message"></div>
+            <div class="user_message">
+                <input type="text" name="user_text" class="user_text" placeholder="메세지를 입력하세요.">
+                <button type="button" id="chatBtn">전송</button>
+            </div>
+        </div>
+    </div>
+    <!-- UP 버튼 -->
+    <button type="button" id="up"><img src="./images/common/up.png" alt="위로가기"></button>
+    <!-- header_m -->
+    <div class="header_m">
+        <a href="#"><img src="./images/index/right.png" alt="접기"></a>
+        <div class="mobile_logo"><img src="./images/common/logo.svg" alt="Wavve"></div>
+        <div class="menu">
+            <a href="./index.html">홈</a>
+            <a href="#">카테고리</a>
+            <a href="./live.html">LIVE</a>
+            <a href="./mypage.html">MY</a>
+        </div>
+        <div class="account">
+            <div class="profile_mobile">
+                <a href="#">로그인</a>
+                <div class="profile_mobile_m">
+                    <a href="./profile_edit.html">프로필 편집</a>
+                    <a href="#">회원정보 수정</a>
+                    <a href="./adult_main.html">성인 콘텐츠 설정</a>
+                    <a href="#">알림함</a>
+                    <a href="#">로그아웃</a>
+                </div>
+            </div>
+            <a href="./membership.html">이용권</a>
+            <div class="coupon_mobile">
+                <a href="#">쿠폰·코인</a>
+                <div class="coupon_mobile_m">
+                    <a href="./holding_coupon.html">쿠폰 등록</a>
+                    <a href="./holding_coin.html">코인 충전</a>
+                </div>
+            </div>
+            <a href="./waveon.html">웨이브온</a>
+            <a href="./event.html">이벤트</a>
+        </div>
+    </div>
+    <!-- header -->
+    <header>
+        <div class="h_top">
+            <div class="profile">
+                <a href="./login.html">로그인<img src="./images/common/arrow.png" alt="더보기"></a>
+                <div class="profile_m">
+                    <p class="photo"><img src="./images/common/profile.png" alt="프로필"></p>
+                    <p class="name">프로필1</p>
+                    <a href="./profile_edit.html" class="edit">프로필 편집 <img src="./images/common/more.png" alt="바로가기"></a>
+                    <a href="#">회원정보 수정</a>
+                    <a href="./adult_main.html">성인 콘텐츠 설정</a>
+                    <a href="#">알림함 <span>0</span></a>
+                    <a href="#">로그아웃</a>
+                </div>
+            </div>
+            <a href="./membership.html">이용권</a>
+            <div class="coupon">
+                <a href="#">쿠폰·코인<img src="./images/common/arrow.png" alt="더보기"></a>
+                <div class="coupon_m">
+                    <a href="./holding_coupon.html">쿠폰 등록</a>
+                    <a href="./holding_coin.html">코인 충전</a>
+                </div>
+            </div>
+            <a href="./waveon.html">웨이브온</a>
+            <a href="./event.html">이벤트</a>
+        </div>
+        <div class="h_bottom_wrap">
+            <div class="h_bottom">
+                <a href="./index.html" class="logo"><img src="./images/common/logo.svg" alt="Wavve"></a>
+                <nav>
+                    <a href="./index.html">홈</a>
+                    <div class="category">
+                        <a href="#">카테고리</a>
+                        <div class="category_m">
+                            <a href="#" class="all">전체 카테고리 보기</a>
+                            <h2>추천 메뉴</h2>
+                            <a href="./overseas_new.html">ORIGINAL</a>
+                            <a href="./classic.html">CLASSIC</a>
+                            <a href="./movie_plus.html">드라마</a>
+                            <a href="./movie_fantasy.html">예능</a>
+                            <a href="./culture.html">시사교양</a>
+                            <a href="./movie_fantasy.html">애니메이션</a>
+                            <a href="./overseas_new.html">해외시리즈</a>
+                            <a href="./new_movie.html">영화</a>
+                            <a href="./movie_plus.html">영화플러스</a>
+                        </div>
+                    </div>
+                    <a href="./live.html">LIVE</a>
+                    <a href="./mypage.html">MY</a>
+                </nav>
+                <!-- 검색 -->
+                <div class="search">
+                    <a href="./search.html"><img src="./images/common/search.svg" alt="검색하기"></a>
+                    <label for="user_search">
+                        <img src="./images/common/search.svg" alt="검색하기">
+                        <input type="search" id="user_search" placeholder="제목, 장르, 배우로 찾아보세요">
+                    </label>
+                    <a href="#" class="menuBtn"><img src="./images/index/menu.png" alt="메뉴"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <section>
+            <div class="main_benner">
+                <div class="benner_contents">
+                    <div class="contents_text">
+                        <h2>JUST DIVE!</h2>
+                        <img src="./images/wave_service/wavve_rogo_img.png" alt="JUST DIVE">
+                        <div class="text_sub">
+                            <span>KBS, MBC, SBS 등 100개 이상의 채널</span>
+                            <span>해외드라마, 애니메이션 포함 방송 VOD 30만편,</span>
+                            <span>영화 2만편(추가 결제 없는 월정액 영화 6천편)</span>
+                            <span>지금 시작하세요!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container product_benner">
+                <div class="swiper-pagination page_nav"></div>
+                <div class="swiper-wrapper benner_main">
+                    <div class="swiper-slide benner_contents">
+                        <div class="benner_text">
+                            <h1>재미의 파도를 타다! <br> Wavve</h1>
+                            <p>
+                                다시 한번 새로워진 Wavve!<br>
+                                더욱 다양한 콘텐츠와 혜택,<br>
+                                Wavve에서 재미의 파도를 타보세요
+                            </p>
+                        </div>
+                        <div class="benner_img">
+                            <img src="./images/wave_service/benner1.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="swiper-slide benner_contents" >
+                        <div class="benner_text">
+                            <h1>볼만한 컨텐츠. <br>더욱 재미있게<br>만나세요</h1>
+                            <p>
+                                오직 웨이브에서만 만나볼 수 있는<br>
+                                다양한 콘텐츠와 테마별 에디터 픽으로<br>
+                                보고싶은 콘텐츠를 만나보세요
+                            </p>
+                        </div>
+                        <div class="benner_img">
+                            <img src="./images/wave_service/benner2.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="swiper-slide benner_contents" >
+                        <div class="benner_text">
+                            <h1>더욱 풍부해진<br> LIVE,VOD,영화</h1>
+                            <p>
+                                지상파 포함 LIVE 채널과 방송 VOD,<br>
+                                취향저격 해외시리즈와 영화!<br>
+                                세상에서 가장 빠른Quick VOD는 물론,<br>
+                                이용권 하나로 영화까지!
+                            </p>
+                        </div>
+                        <div class="benner_img">
+                            <img src="./images/wave_service/benner3.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="swiper-slide benner_contents" >
+                        <div class="benner_text">
+                            <h1>더욱 합리적이고<br>새로워진<br>Wavve 이용권</h1>
+                            <p>
+                                Basic,Standard,Premium<br>
+                                어떤 이용권이로든 다양한 기기에서<br>
+                                6,0000편의 Wavvie 영화까지 자유롭게!
+                            </p>
+                        </div>
+                        <div class="benner_img">
+                            <img src="./images/wave_service/benner4.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="swiper-button-prev" id="prev">
+                    <img src="./images/wave_service/prev_icon.png" alt="">
+                </a>
+                <a href="#" class="swiper-button-next" id="next">
+                    <img src="./images/wave_service/next_icon.png" alt="">
+                </a>
+            </div>
+            <div class="wavve_style">
+                <div class="style_first">
+                    <div class="content_wrap first_wrap">
+                        <div class="wrap_contents">
+                            <p class="text1">Wavve style</p>
+                            <h1>Fit your <em>screen</em></h1>
+                            <p class="text2">당신의 스크린에 딱 맞추어 Wavve를 즐겨보세요.</p>
+                            <img src="./images/wave_service/service_style_benner.png" alt="모니터 화면">
+                        </div>
+                        <div class="description">
+                            <ul>
+                                <li>
+                                    <h2>더 넓게</h2>
+                                    <div class="text">
+                                        <span>삼성/LG스마트 TV</span>
+                                        <span>스마트 프로젝터에 탑재된</span>
+                                        <span>Wavve를 만나보세요!</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2>더 편리하게</h2>
+                                    <div class="text">
+                                        <span>크롬캐스트,패밀리허브,</span>
+                                        <span>android 셋톱박스 등</span>
+                                        <span>다양한 기기에서 편리하게</span>
+                                        <span>Wavve를 이용하세요!</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content_wrap second_wrap">
+                        <div class="wrap_contents">
+                            <p class="text1">Wavve style</p>
+                            <h1>Fit your <em>style</em></h1>
+                            <p class="text2">당신의 스타일에 맞추어 Wavve를 즐겨보세요!</p>
+                            <img src="./images/wave_service/service_style_benner.png" alt="모니터 화면">
+                        </div>
+                        <div class="description">
+                            <ul>
+                                <li>
+                                    <img src="./images/wave_service/movie_icon.png" alt="영화">
+                                    <h2>영화도 더 Wavve!</h2>
+                                    <div class="text">
+                                        <span>Wavve 이용권으로</span>
+                                        <span>수천편의 Wavvie 영화까지</span>
+                                        <span>마음껏 즐기세요!</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="./images/wave_service/music_icon.png" alt="음악">
+                                    <h2>음악도 더 Wavve!</h2>
+                                    <div class="text">
+                                        <span>방송과 음악을 가장 알뜰하게</span>
+                                        <span>즐기는 방법!</span>
+                                        <span>Wavve X Bugs 결합상품!</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="./images/wave_service/wavve_icon.png" alt="로고">
+                                    <h2>PC방,병원,도서관에서도 무료로!</h2>
+                                    <div class="text">
+                                        <span>&LT;Wavve on&GT;가맹점에서는 로그인없이</span>
+                                        <span>Wavve를 무료로 즐길수 있어요!</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="download">
+                <div class="download_wrap">
+                    <div class="download_contents">
+                        <div class="contents_text">
+                            <p>앱 다운로드</p>
+                            <h2>새로운 Wavve를 만나보세요</h2>
+                            <span>더욱 다양한 콘텐츠와 혜택,Wavve에서 재미의 파도를 타 보세요.</span>
+                        </div>
+                        <div class="bottom_contents">
+                            <div class="img"><img src="./images/wave_service/wavve_phone_img.png" alt=""></div>
+                            <div class="app_download">
+                                <a href="https://apps.apple.com/kr/app/wavve-%EC%9B%A8%EC%9D%B4%EB%B8%8C/id987782077?ls=1"><img src="./images/wave_service/apple_download.jpg" alt="에플다운로드"></a>
+                                <a href="https://play.google.com/store/apps/details?id=kr.co.captv.pooqV2&hl=ko">
+                                    <img src="./images/wave_service/google.download.jpg" alt="구글 다운로드">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="use">
+                <div class="use_wrap">
+                    <div class="use_contents">
+                        <div class="use_text">
+                            <p>이용권</p>
+                            <h2>어떤 이용권이로든 </h2>
+                            <h2>Wavvie 영화까지 자유롭게!</h2>
+                            <div class="text_box">
+                                <span>원하는 최고  화질과 동시접속 회선 수 에 따라</span>
+                                <span> 나에게 꼭 맞는 이용권을 선택하세요</span>
+                            </div>
+                            <div class="button">
+                                <a href="./membership.html">waveon 이용권 보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="follow">
+                <div class="follow_contents">
+                    <div class="follow_text">
+                        <p>wavve의 새로운 소식을 누구보다 먼저 받아보고 싶다면?</p>
+                        <h1>SNS에서 "Wavve"를 팔로우하세요!</h1>
+                    </div>
+                    <div class="follow_link">
+                        <a href="#"><img src="./images/wave_service/facebook_img.jpg" alt="페이스북"></a>
+                        <a href="#"><img src="./images/wave_service/naver_img.jpg" alt="네이버"></a>
+                        <a href="#"><img src="./images/wave_service/youtube_img.jpg" alt="유튜브"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="f_top_wrap">
+            <div class="f_top">
+                <a href="./customer_service.html">공지사항</a>
+                <a href="./customer_service.html"><img src="./images/index/notice.png" alt="공지사항"></a>
+                <div class="swiper_container" id="swiper_notice">
+                    <div class="swiper-wrapper" id="notice_wrap">
+                        <a href="./customer_service.html" class="swiper-slide" id="notice_001">[점검안내] 2월 22일 롯데홈쇼핑 라이브 채널 점검</a>
+                        <a href="./customer_service.html" class="swiper-slide" id="notice_002">일부 스마트 TV Wavve 서비스 지원 종료 안내 (2024년 1월 1일)</a>
+                        <a href="./customer_service.html" class="swiper-slide" id="notice_003">[웨이브 폰트 출시] '웨이브 파도체'로 나만의 콘텐츠를 채워보세요!</a>
+                        <a href="./customer_service.html" class="swiper-slide" id="notice_004">[업데이트] 2월 1주 프로그램 리스트</a>
+                        <a href="./customer_service.html" class="swiper-slide" id="notice_005">[업데이트/중지] 2월 wavvie 영화 리스트</a>
+                    </div>
+                    <div class="move">
+                        <a href="#" class="swiper-button-prev" id="f_prev">
+                            <img src="./images/common/prev.png" alt="">
+                        </a>
+                        <a href="#" class="swiper-button-next" id="f_next">
+                            <img src="./images/common/next.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="f_bottom">
+            <div class="f_left">
+                <div class="info">
+                    <a href="#">회사소개</a>
+                    <a href="#">인재채용</a>
+                    <a href="./wave_service.html">서비스 소개</a>
+                    <a href="./customer_service.html">이용약관</a>
+                    <a href="./customer_service.html">개인정보 처리방침</a>
+                    <a href="./customer_service.html">고객센터</a>
+                </div>
+                <div class="company">
+                    <p class="company_info">
+                        <span>콘텐츠웨이브 주식회사</span>
+                        <span>대표이사 이태현</span>
+                        <span class="last">고객센터 1599-3709 (평일 09:00~18:00 / 점심시간 12:00~13:00 / 주말 및 공휴일 휴무)</span><br>
+                        <span>사업자등록번호 220-88-38020</span>
+                        <span class="last">호스팅서비스제공자 : 마이크로소프트 유한회사, 구글클라우드코리아 유한회사, 아마존웹서비시즈코리아 유한회사</span><br>
+                        <span>통신판매업 신고번호 : 제 2021-서울영등포-0585호</span>
+                        <span class="last">통신판매업 정보 공개 : <a href="#" class="web">http://www.ftc.go.kr/bizCommPop.do?wrkr_no=220-88-38020</a></span><br>
+                        <span>서울특별시 영등포구 여의나루로 60 포스트타워 19층</span>
+                        <span class="last">전자우편주소 : <a href="#">helpdesk@wavve.com</a></span><br>
+                    </p>
+                    <p class="copyright">Copyright&copy; 콘텐츠웨이브(주) All rights reserved.</p>
+                </div>
+            </div>
+            <div class="f_right">
+                <a href="#" class="logo"><img src="./images/common/footer_logo.svg" alt="웨이브온"></a>
+                <select name="selWavveOn" id="selWavveOn">
+                    <option value="">사업자용 웨이브 가입</option>
+                    <option value="">웨이브온 서비스 소개</option>
+                    <option value="">웨이브온 PC방 서비스</option>
+                    <option value="">웨이브온 도서관 서비스</option>
+                    <option value="">웨이브온 병원 서비스</option>
+                    <option value="">웨이브온 숙박 서비스</option>
+                    <option value="">웨이브온 일반 서비스</option>
+                </select>
+                <div class="sns">
+                    <a href="#"><img src="./images/common/facebook.png" alt="페이스북"></a>
+                    <a href="#"><img src="./images/common/naver.png" alt="네이버"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <?php include("footer.php");?> -->
+    <script src="./script/common.js"></script>
+    <script src="./script/wave_service.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@media screen and (max-width:1240px){
+    section {
+        padding: 0 60px;
+    }
+
+   
+}
+@media screen and (max-width:768px){
+    main .find_pw .info_box .method_info .m_title {
+        display: block;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        font-size: 0.875rem;
+        color: #717171;
+        text-align: left
+    }
+    main .find_pw .info_box .method_info p {
+        display: none;
+    }
+    main .find_pw {
+        background: #1b1b1b;
+    }
+    main .find_pw .info_box h2 {
+        display: none;
+    }
+    main .find_pw .common_box h2 {
+        display: none;
+    }
+    main .find_pw .common_box .method{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    main .find_pw .info_box .method {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main .find_pw .info_box .method a {
+        height: 90%;
+        width: 40%; margin-right:15px
+    }
+
+    main .find_pw .common_box .method a {
+        height: 90%;
+        width: 40%; margin-right:15px
+    }
+
+    main .find_pw .info_box .method_info #findIdFrm {
+        width: 100%;
+    }
+    main .find_pw .info_box .method_info #findIdFrm fieldset {
+        width: 100%;
+    }
+    main .find_pw .info_box .method_info #findIdFrm fieldset #user_id {
+        width: 460px;
+    }
+    main .find_pw .info_box .method_info #findIdFrm fieldset .certified_submit #user_tel{
+        width: 460px;
+    }
+    main .find_pw .info_box .method_info #findIdFrm fieldset #user_certified {
+        width: 460px;
+    }
+    #up {
+        /* right: 0px;
+        bottom: 75px; */
+        display: none;
+    }
+
+    /* 회원등록 정보 클릭 시 변경페이지 */
+    main .find_pw .info_box {
+        
+    }
+    #chat #chat_icon {
+        right :0px;
+        bottom: 0px;
+    }
+
+}   

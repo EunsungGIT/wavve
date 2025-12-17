@@ -1,0 +1,72 @@
+@media screen and (max-width:1240px){
+    main {
+        padding: 0 60px;
+    }
+    main section .contents .video_intro .logo {
+        width: 300px; margin: 20px 0;
+    }
+    main section .contents .video_intro .contents_box {
+        flex-flow: column-reverse nowrap; width: max-content;
+    }
+    main section .contents .video_intro .contents_box #optionBtn {
+        margin-top: 10px;
+    }
+    main section .contents .video_intro .contents_box #buyBtn {
+        width: 240px; margin-top: 10px;
+    }
+    main section .contents .video_intro .contents_box .icon {
+        position: absolute; right: -150px; bottom: 0;
+    }
+    main section .contents .video_intro .detail {
+        display: none;
+    }
+}
+@media screen and (max-width:1024px){
+    main section .contents_info .info_contents .contents_item ul li {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    main section .contents .video_intro {
+        position: unset; width: 100%;
+    }
+    main section .contents .video_intro .logo {
+        width: 200px; margin: 10px 0;
+    }
+    main section .contents #muted {
+        display: none;
+    }
+    main section .contents_info .info_contents .contents_item li a .img_box {
+        width: 300px;
+    }
+    main section .contents .video_intro .contents_box {
+        width: 100%;
+    }
+    main section .contents .video_intro .contents_box #optionBtn {
+        width: 100%; justify-content: center;
+    }
+    main section .contents .video_intro .contents_box .button_m {
+        width: 100%;
+    }
+    main section .contents .video_intro .contents_box #buyBtn {
+        width: 100%;
+    }
+    main section .contents .video_intro .contents_box .icon {
+        position: unset;
+    }
+    main section .contents_info .info_contents .recommend .img_container .title span {
+        font-size: 1rem;
+    }
+    main section .contents_info .info_contents .recommend .img_container .title a {
+        font-size: 0.875rem;
+    }
+    main section .contents_info .information .information_box .information_contents {
+        flex-flow: column nowrap;
+    }
+    main section .contents_info .information .information_box .information_contents .img img {
+        width: 100%;
+    }
+    main section .contents_info .information .information_box .information_contents .main_text .text_box .explanation {
+        font-size: 0.75rem;
+    }
+}

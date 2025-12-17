@@ -1,0 +1,69 @@
+@media screen and (max-width:1240px){
+    section {
+        padding: 0 60px;
+    }
+
+    main .login .m_title {
+        display: none;
+
+    }
+}
+@media screen and (max-width:768px){
+    main .login {
+        background: #1b1b1b;
+        margin: 0 auto;
+    }
+    main .login .m_title {
+        display: block;
+        margin-bottom: 70px;
+        font-weight: bold;
+    }
+
+    main .login .w_title {
+        display: none;
+    }
+    main .login #loginFrm {
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+
+    }
+    main .login #loginFrm fieldset .checkbox label {
+        display: none;
+    }
+
+    main .login #loginFrm fieldset #user_id {
+        margin-bottom: 0px;
+        width: 465px;
+        justify-content: center;
+    }
+
+    main .login #loginFrm fieldset #user_pw {
+        margin-bottom: 0px;
+        width: 465px;
+    }
+    main .login #loginFrm #loginBtn {
+        margin-top: -30px;
+        width: 465px;
+    }
+    main .login .sns_join {
+        padding: 20px 0
+    }
+    main .login .sns_join a img {
+        width: 55px; height: 55px;    }
+
+        #up {
+            display: none;
+        }
+
+        #chat #chat_icon {
+            right: 19px;
+            bottom: 110px;
+        }
+        main .login p:nth-of-type(2)::before {
+            display: none;
+        }
+        main .login p:nth-of-type(2)::after {
+            display: none;
+        }
+    }

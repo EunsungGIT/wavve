@@ -1,0 +1,92 @@
+@media screen and (max-width:1240px){
+    h1 {
+        padding: 0 60px;
+    }
+
+    main {
+        padding: 60px 60px 80px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    main .inquiry_top .m_title {
+        display: block;
+    }
+
+    main .inquiry_top .m_content {
+        display: block;
+    }
+
+    main .inquiry_top .w_title {
+        display: none;
+    }
+    main .inquiry_top {
+        text-align: start;
+    }
+
+    main .text{
+        text-align: start;
+    }
+
+    main .inquiry_top .m_title {
+        color:#1351f9;
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+    main .inquiry_top p {
+        margin-bottom: 10px;
+    }
+    main #inquiryFrm fieldset dl:nth-of-type(5) dd, main #inquiryFrm fieldset dl:nth-of-type(7) dd {
+        display:initial
+    }
+    #up {
+        right: 0px;
+        bottom: 0px;
+    }
+    main .text::before {
+        display: none;
+    }
+    main #inquiryFrm fieldset dl dt {
+        margin-right: 15px;
+    }
+
+    main #inquiryFrm fieldset dl .m_name {
+        display: block;
+    }
+
+    main #inquiryFrm fieldset dl dt {
+        display: none;
+    }
+
+/*     main #inquiryFrm fieldset dl dd #program_info {
+        width: 100%;
+    } */
+
+    main #inquiryFrm fieldset dl .name {
+        display: none;
+    }
+
+    main #inquiryFrm fieldset dl dd #os_browser {
+        width: 100%;
+    }
+    main #inquiryFrm fieldset dl dd #inquiry_contents{
+        width: 100%;
+    }
+    main #inquiryFrm fieldset dl dd #user_name {
+        width: 100%;
+    }
+    main #inquiryFrm fieldset dl dd #user_email{
+        width: 100%;
+    }
+    main #inquiryFrm fieldset dl dd {
+        width: 100%;
+    }
+    main #inquiryFrm fieldset dl dd #user_num {
+        width: 100%;
+    }
+    main #inquiryFrm fieldset dl dd #question {
+        width: 100%;
+    }
+
+}

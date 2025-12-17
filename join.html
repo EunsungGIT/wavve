@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wavve(웨이브) -회원가입 </title>
+    <link rel="shortcut icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link rel="icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/join.css">
+    <link rel="stylesheet" href="./styles/reaction_type/join_reaction.css">
+</head>
+<body>
+    <section>
+        <div class="contents_all">
+            <div class="header">
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/login/rogo.png" alt="로고"></a>            
+                </div>
+            </div>
+            <div class="contents">
+                <div class="line">
+                    <span>상단바</span>
+                </div>
+                <div class="content_box">
+                    <h1>
+                        <span>이메일과 비밀번호</span>만으로<br>
+                        <span>Wavve를 즐길 수</span>있어요
+                    </h1>
+                    <form action="#" method="get">
+                        <fieldset>
+                            <legend id="skip"></legend>
+                            <ul>
+                                <li>
+                                    <input type="text" name="user_id" id="user_id" placeholder="Wavve@example.com">
+                                    <p class="id_error"><img class="icon" src="./images/login/icon_gray.png" alt="#">로그인, 비밀번호 찾기, 알림에 사용되니 정확한 이메일을 입력해 주세요.</p>
+                                </li>
+                                <li>
+                                    <input type="password" name="user_pw" id="user_pw" placeholder="Wavve비밀번호 설정">
+                                    <p class="pw_error"><img class="icon" src="./images/login/icon_gray.png" alt="#">비밀번호는 8~20자 이내로 영문 대소문자, 숫자, 특수문자 중 3가지 이상 혼용하여 입력해 주세요.</p>
+                                    <button type="button" id="pw_btn">Show</button>
+                                </li>
+                            </ul>
+                            <button type="button" id="join_btn">Wavve 회원가입</button>
+                        </fieldset>
+                    </form>
+                    <h2 class="w_join_title">또는 다른 서비스 계정으로 가입</h2>
+                    <h2 class="m_join_title">다른 서비스 계정으로 가입</h2>
+                    <div class="sns_join">
+                        <a href="#"><img src="./images/login/kakao_icon.png" alt="카카오톡"></a>
+                        <a href="#"><img src="./images/login/t_icon.png" alt="T아이디"></a>
+                        <a href="#"><img src="./images/login/naver_icon.png" alt="네이버"></a>
+                        <a href="#"><img src="./images/login/facdbook_icon.png" alt="페이스북"></a>
+                        <a href="#"><img src="./images/login/apple_icon.png" alt="에플"></a>
+                    </div>
+                    <p class="bottom_text">
+                        SNS계정으로 간편하게 가입하여 서비스를 이용하실 수 있습니다.<br>
+                        기존 POOQ 계정 또는 Wavve 계정과는 연동되지 않으니 이용에 참고하세요.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="popup">
+            <div class="background">
+                <div class="popup_contents">
+                    <form action="#" method="post" id="consent_contents">
+                        <fieldset>
+                            <legend class="skip">간편 회원가입 입력 폼</legend>
+                            <div class="content_box">
+                                <div class="content_header">
+                                    <h1>Wavve <em>이용약관에 동의</em>하시면<br>
+                                        가입이 완료됩니다</h1>
+                                </div>
+                                <div class="header_check">
+                                    <input type="checkbox"  id="checking">
+                                    <label for="checking">전체약관에 동의합니다</label>
+                                </div>
+                                <ul class="check_box">
+                                    <li>
+                                        <div class="input_style">
+                                            <input type="checkbox" class="check_sub essential" id="age">
+                                            <label for="age">만 14세 이상입니다.<em>(필수)</em></label>
+                                        </div>
+                                        <a href="#"><img src="./images/login/ico_arrow_gray-right.png" alt="자세히보기"></a>
+                                    </li>
+                                    <li>
+                                        <div class="input_style">
+                                            <input type="checkbox" class="check_sub essential" id="service">
+                                            <label for="service">서비스 이용약관.<em>(필수)</em></label>
+                                        </div>
+                                        <a href="#"><img src="./images/login/ico_arrow_gray-right.png" alt="자세히보기"></a>
+                                    </li>
+                                    <li>
+                                        <div class="input_style">
+                                            <input type="checkbox" class="check_sub essential" id="information">
+                                            <label for="information">개인정보 수집·이용 동의<em>(필수)</em></label>
+                                        </div>
+                                        <a href="#"><img src="./images/login/ico_arrow_gray-right.png" alt="자세히보기"></a>
+                                    </li>
+                                    <li>
+                                        <div class="input_style">
+                                            <input type="checkbox" class="check_sub essential" id="charged">
+                                            <label for="charged">유료상품 이용약관<em>(필수)</em></label>
+                                        </div>
+                                        <a href="#"><img src="./images/login/ico_arrow_gray-right.png" alt="자세히보기"></a>
+                                    </li>
+                                    <li>
+                                        <div class="input_style">
+                                            <input type="checkbox" class="check_sub" id="receive">
+                                            <label for="receive">신작 콘텐츠 및 이벤트 정보 수신 동의 (선택)</label>
+                                        </div>
+                                        <a href="#"><img src="./images/login/ico_arrow_gray-right.png" alt="자세히보기"></a>
+                                    </li>
+                                    <li>
+                                        <div class="input_style">
+                                            <input type="checkbox" class="check_sub" id="commercial">
+                                            <label for="commercial">광고성 정보 수신 동의 (선택)</label>
+                                        </div>
+                                        <a href="#"><img src="./images/login/ico_arrow_gray-right.png" alt="자세히보기"></a>
+                                    </li>
+                                    <li>
+                                        <div class="input_style">
+                                            <input type="checkbox" class="check_sub" id="customized">
+                                            <label for="customized">맞춤형 서비스 제공을 위한 제3자 제공 동의 (선택)</label>
+                                        </div>
+                                        <a href="#"><img src="./images/login/ico_arrow_gray-right.png" alt="자세히보기"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <button type="button" id="clear_join">회원가입 완료</button>
+                </div>  
+                <div class="close">
+                    <a href="#" id="sub"><img src="./images/login/popup_close.png" alt="닫기"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script/join.js"></script>
+</body>
+</html>

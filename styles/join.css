@@ -1,0 +1,248 @@
+s/* 제목로고 */
+section {}
+section .contents_all{
+    margin: 0 auto;
+    max-width: 1240px;
+}
+section .header {
+}
+section .header .logo {
+        padding: 61px 0 27px;
+}
+section .header .logo img {}
+/* 메인컨텐츠 */
+section .contents {
+    max-width: 560px;
+    margin: 0 auto;
+    margin-top: 108px;
+    text-align: center;
+    background: #252525; 
+    margin-bottom: 108px;
+}
+/* 라인 */
+section .contents .line{
+    width: 100%; height: 5px;
+    background: #2f2f2f;
+}
+section .contents .line span{
+    display: block; text-indent: -9999px;
+    width: 25%; background: #1351f9; height: 5px;
+}
+section .contents .content_box {
+    padding: 40px;
+}
+section .contents .content_box .join_btm_font {
+    font-size: 1.75rem; color:#a5a5a5;
+    background: violet;
+}
+section .contents .content_box h1 {
+    text-align: left; margin: 20px 0;
+    font-size: 1.75rem; color:#a5a5a5;
+}
+section .contents .content_box h1 span {
+    color: #fff ;font-size: 1.75rem;
+}
+section .contents .content_box form {
+    margin-bottom: 50px;
+}
+section .contents .content_box form fieldset {}
+section .contents .content_box form fieldset #skip {
+    display: none;
+}
+section .contents .content_box form fieldset ul {
+    
+}
+/* 공통 inpit  */
+section .contents .content_box form fieldset  ul li {
+    margin-bottom: 28px; 
+}
+section .contents .content_box form fieldset  ul li input {
+    background: #2f2f2f; color: #fff;
+    padding: 0 90px 0 20px;
+    width: 100%;
+    height: 53px;
+    border-radius: 5px
+}
+section .contents .content_box form fieldset  ul li p  {
+    display: flex; align-items: center; font-size: 0.875rem;
+    margin-top: 12px;  color: #a5a5a5; 
+}
+section .contents .content_box form fieldset  ul li p img  {
+    padding-right: 4px;
+}
+/* 개별 */
+section .contents .content_box form fieldset  ul li:nth-child(2) {
+    position: relative;
+}
+section .contents .content_box form fieldset  ul li #user_pw{
+    
+}
+section .contents .content_box form fieldset  ul li:nth-child(2) p {
+    text-align: left; 
+}
+section .contents .content_box form fieldset  ul li:nth-child(1) p img{
+    position: relative; top: 1px; 
+}
+section .contents .content_box form fieldset  ul li:nth-child(2) p img {
+    position: relative; bottom: 8px;
+}
+section .contents .content_box form fieldset ul li button {
+    color: #fff; position: absolute ; right: 16px; top: 16px;
+}
+/* 회원가입 버튼 */
+section .contents .content_box form fieldset #join_btn {
+    width: 100%; background: #717171; padding: 20px 0;border-radius: 100px;
+    color: #fff;
+}
+/* 하단 */
+section .contents .content_box h2 {
+    color: #a5a5a5; font-size: 1.25rem;
+    font-weight: bold;
+}
+section .contents .content_box .m_join_title {
+    display: none;
+}
+/* 양옆 선 */
+section .contents .content_box h2::after{
+    display: inline-block; content: "";
+    background: #2f2f2f ;
+    width: 90px;height: 1px;
+    position: relative; bottom: 8px;  margin-left: 10px;
+}
+section .contents .content_box h2::before{
+    background: #2f2f2f ;
+    display: inline-block; content: "";
+    width: 90px; height: 1px;
+    position: relative; bottom: 8px; margin-right: 10px;
+}
+
+section .contents .content_box .sns_join {
+    display: flex; flex-flow: row nowrap;
+    align-items: center;  justify-content: center;
+    padding: 40px 0;
+}
+section .contents .content_box .sns_join a {}
+/* 공통이미지 효과 */
+section .contents .content_box .sns_join a img {
+    background: #a5a5a5; padding: 14px; border-radius: 50%;
+}
+/* 개별이미지 효과 */
+section .contents .content_box .sns_join a:nth-child(1) img {
+    background: #fff100;}
+section .contents .content_box .sns_join a:nth-child(2) img {
+    background: #3617ce; margin-left: 16px;
+}
+section .contents .content_box .sns_join a:nth-child(3) img {
+    background: #23b909;margin-left: 16px;
+}
+section .contents .content_box .sns_join a:nth-child(4) img {
+    background: #3b5998;margin-left: 16px;
+}
+section .contents .content_box .sns_join a:nth-child(5) img {
+    background: #fff;margin-left: 16px;
+}
+
+
+section .contents  .bottom_text  {
+    text-align: left;
+    font-size: 0.875rem; color: #a5a5a5;
+    line-height: 20px;
+}
+section .contents  .bottom_text::before{
+    background: #a5a5a5 ;
+    display: inline-block; content: "";
+    width: 3px;  height: 3px;
+    position: relative; bottom: 4px; 
+    border-radius: 50%;
+}
+/* 팝업 */
+section .popup { 
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: fixed; width: 100%;
+    left: 0; top: 0; z-index: 999;
+}
+section .popup .background{
+    max-width: 560px; margin: 0 auto;
+    position: relative;
+}
+section .popup .background .popup_contents{ 
+    
+    padding: 40px 40px; background: #252525; 
+}
+section .popup .background .popup_contents #consent_contents {}
+section .popup .background .popup_contents #consent_contents fieldset {}
+section .popup .background .popup_contents #consent_contents fieldset .skip {}
+section .popup .background .popup_contents #consent_contents fieldset .content_box {}
+section .popup .background .popup_contents #consent_contents fieldset .content_box .content_header {margin: 20px 0;}
+section .popup .background .popup_contents #consent_contents fieldset .content_box .content_header h1 {font-size: 1.75rem; color: #a5a5a5;}
+section .popup .background .popup_contents #consent_contents fieldset .content_box .content_header h1 em {color: #fff;font-size: 1.75rem;} 
+section .popup .background .popup_contents #consent_contents fieldset .content_box .header_check{
+    padding: 24px 16px; margin-top: 16px;
+}
+section .popup .background .popup_contents #consent_contents fieldset .content_box .check_box {}
+section .popup .background .popup_contents #consent_contents fieldset .content_box .check_box li {
+    display: flex; align-items: center; justify-content: space-between;
+    background: #2f2f2f; padding: 24px 16px;
+    border-bottom: 1px solid #252525;
+}
+/* 공통 input label 선택자 */
+section .popup .background .popup_contents #consent_contents fieldset .content_box  label {
+    color: #a5a5a5;
+}
+section .popup .background .popup_contents #consent_contents fieldset .content_box  label em{
+    color: #3887ff;
+}
+section .popup .background .popup_contents #consent_contents fieldset .content_box input{
+    display: none;
+}
+section .popup .background .popup_contents #consent_contents fieldset .content_box  label::before{
+    border: 1px solid #a5a5a5;
+    position: relative; top: 6px; content: '';
+    display: inline-block;width: 23px;
+    height:23px; margin-right:8px;
+} 
+section .popup .background .popup_contents #consent_contents fieldset .content_box input:checked + label::before{
+    position: relative; top: 6px;
+    content: '';
+    display: inline-block;
+    background-image: url(../images/login/check.png);
+    background-size: cover; 
+    width: 23px;
+    height:23px;
+    margin-right:8px;
+    border: 1px solid #1351F9
+}
+
+/*--------- */
+section .popup .background .popup_contents #consent_contents fieldset .content_box .check_box li .input_style {}
+section .popup .background .popup_contents #consent_contents fieldset .content_box .check_box li .input_style  input{}
+
+section .popup .background .popup_contents #clear_join {
+    width: 100%;     padding: 20px 0; color: #fff; border-radius: 100px;
+    background: #717171; line-height: 20px; margin-top: 40px; font-size: 1.25rem;
+}
+
+section .popup .background .close  { 
+    position: absolute; top: 0; right: -40px;
+}
+section .popup .background .close a {}
+section .popup .background .close a img {
+    width: 30px; height: 30px; 
+}
+
+
+.login_show {
+    animation: login_show 0.5s both;
+}
+.login_hide {
+    animation: login_hide 0.5s both;
+}
+@keyframes login_show {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes login_hide {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}

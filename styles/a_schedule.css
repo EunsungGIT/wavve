@@ -1,0 +1,209 @@
+/* body{background: #fff;} */
+main {}
+main section {}
+main section .time {
+    max-width: 1280px; margin: 0 auto;
+    background: #1b1b1b;
+    text-align: center; 
+    padding: 60px 0 50px;
+    position: relative;
+}
+main section .time h1  {
+    font-size: 2rem; color: #fff; margin-top: 12px;
+}
+main section .time h1 em {
+    font-size: 2rem;  color: #fff; font-weight: 700;
+    margin-top: 12px;
+    
+}
+main section .time p {
+    color: #fff; margin-top: 14px;
+}
+main section .time button {
+    width: 75px;
+    height: 36px;
+    border-radius: 100px;background-color: #1351f9;
+    border: 1px solid #1351f9;font-size: 0.875rem;
+    color: #fff;    font-weight: 700;
+    position: absolute;    right: 0;
+    top: 50%;    margin-top: -18px;
+}
+main section .day_warp {
+    width: 100%;
+    background: #252525
+}
+main section .day_warp .day_contents {
+    max-width: 1240px; margin: 0 auto;
+}
+main section .day_warp .day_contents .contents_all {
+    padding: 24px  20px;
+    background: #252525 ;
+    position: relative;
+}
+main section .day_warp .day_contents .contents_all .date_list {
+    display: flex;  justify-content: space-around  ;
+}
+main section .day_warp .day_contents .contents_all .date_list li {
+    width: 100px ;   text-align: center; 
+}
+main section .day_warp .day_contents .contents_all .date_list li:hover {
+    transform: scale(1.1); transition: 0.3  s;
+}
+main section .day_warp .day_contents .contents_all .date_list li:nth-child(6):hover,
+main section .day_warp .day_contents .contents_all .date_list li:nth-child(7):hover{
+    transform: scale(1);
+}
+
+/* 날짜 공통 색깔 */
+main section .day_warp .day_contents .contents_all .date_list li:nth-child(6) span ,
+main section .day_warp .day_contents .contents_all .date_list li:nth-child(6) strong,
+main section .day_warp .day_contents .contents_all .date_list li:nth-child(7) span ,
+main section .day_warp .day_contents .contents_all .date_list li:nth-child(7) strong {
+    color:#4f4f4f
+}
+main section .day_warp .day_contents .contents_all .date_list li a strong,
+main section .day_warp .day_contents .contents_all .date_list li a span {color: #a5a5a5;}
+main section .day_warp .day_contents .contents_all .date_list li a {
+    display: flex ; flex-flow: column nowrap; padding: 16px 21px; 
+}
+main section .day_warp .day_contents .contents_all .date_list li a strong {
+    font-size: 1.25rem; color: #3887ff; 
+}
+main section .day_warp .day_contents .contents_all .date_list li a span {
+    font-size: 2.5rem; font-weight: 700;
+}
+main section .day_warp .day_contents .contents_all i {
+    font-size: 2rem ; color: #fff;
+    background: #2f2f2f; border-radius: 50%; padding: 5px 12px;
+}
+main section .day_warp .day_contents .contents_all .time_line_next {
+    position: absolute; left: 0; top: 35%;
+}
+main section .day_warp .day_contents .contents_all .time_line_prev {
+    position: absolute; right: 0; top: 35%;
+}
+main section .broadcasting {
+    max-width: 100%
+}
+main section .broadcasting .broadcasting_contents {
+    max-width: 900px; margin: 0 auto; 
+    display: flex; flex-flow: row nowrap; justify-content: space-around;
+    margin-top: 70px;  border: 3px solid #2f2f2f; border-radius: 100px;
+}
+main section .broadcasting .broadcasting_contents a {}
+main section .broadcasting .broadcasting_contents a img {
+    width: 130px;
+}
+main section .broadcasting .broadcasting_contents a img:hover{
+    transform: scale(1.4); transition:  0.5s;
+}
+/* 방송 편성표 */
+main section .broadcasting_announcement {
+    background: #1b1b1b;
+    padding-top: 90px;
+}
+main section .broadcasting_announcement .contents_all {}
+main section .broadcasting_announcement .contents_all .announcement_header {
+    max-width: 1240px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 0 32px;
+}
+main section .broadcasting_announcement .contents_all .announcement_header h1 {
+    font-size: 2.375rem; color: #a5a5a5;
+}
+main section .broadcasting_announcement .contents_all .announcement_header h1 span {
+}
+main section .broadcasting_announcement .contents_all .announcement_header h1 img{
+    width: 150px; position: relative; top: 28px
+}
+main section .broadcasting_announcement .contents_all .announcement_header .contents_btn{
+    display: flex;
+}
+main section .broadcasting_announcement .contents_all .announcement_header .contents_btn a{
+    
+}
+main section .broadcasting_announcement .contents_all .announcement_header .contents_btn .real_time{
+    padding: 12px 30px; 
+    background: #2f2f2f; display: flex;
+    border: 1px solid #1D1D22;
+    border-radius: 6px; 
+}
+main section .broadcasting_announcement .contents_all .announcement_header .contents_btn .real_time:hover {
+    background: #000;}
+main section .broadcasting_announcement .contents_all .announcement_header .contents_btn .real_time span
+{color: #fff;}
+main section .broadcasting_announcement .contents_all .announcement_header .contents_btn .real_time img {width: 20px;}
+main section .broadcasting_announcement .contents_all .announcement_header .contents_btn .view_today{
+    padding: 12px 30px; border: 1px solid #a5a5a5; margin-left: 7px;
+    border-radius: 6px; color: #a5a5a5;
+}
+/* 편성표 정보 */
+main section .broadcasting_announcement .contents_all .announcement_main {
+    max-width: 1240px; margin: 0 auto;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li{
+    padding: 40px 10px; border: 3px solid #2f2f2f; border-radius: 20px;
+    margin-bottom: 20px;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents{
+    display: flex; 
+    align-items: center;
+    position: relative;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents h1 {
+    color: #a5a5a5;  font-size: 1.75rem;
+    padding-left: 20px;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .title{
+    display: flex; align-items: center;
+    position: relative; left: 80px;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .title a{
+    font-size: 1.375rem; color: #a5a5a5;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .title span {
+    color: #a5a5a5; padding-left: 20px;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .contents_more {
+    position: absolute; right: 30px;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .contents_more a {
+    display: flex; align-items: center;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .contents_more a i {
+    color: #a5a5a5; font-size: 2rem;
+    padding-left: 20px;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .contents_more a span {
+    border: 1px solid #a5a5a5;
+    color: #a5a5a5; padding: 10px 15px; font-size: 1.15rem;
+    border-radius: 25px;
+}
+main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .contents_more a span:hover{
+    border: 1px solid #1351f9;
+    background: #1351f9;
+    color:#fff
+}
+/* on air */
+main section .broadcasting_announcement .contents_all .announcement_main .on_air {
+    background-color: #000;
+}
+/* on_air 공통 폰트색상 */
+main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents h1,
+main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .title a {color: #fff;}
+main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .title span, main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .contents_more a span,main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .contents_more a i {color: #fff;}
+
+main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .contents_more a h2 {
+    color: #f90228; font-size: 1.75rem;
+    padding-right: 30px;
+}
+main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .contents_more a h2::before{
+    margin-right: 10px;
+    display: inline-block;
+    content: '';  width: 18px; height: 18px;
+    background: #f90228; border-radius: 50%;
+}
+
+.time_border {
+    border: 4px solid #fff; border-radius: 120px;
+}

@@ -1,0 +1,55 @@
+@media screen and (max-width:768px) {
+    main .background .contents{
+        padding: 94px;
+    }
+    main .background .contents ul li a span  {
+        font-size: 0.875rem ;
+    }
+    main .background .contents ul li {
+        margin-bottom: 10px;
+    }
+    main .background .contents h2  {
+        font-size: 2rem;
+    }
+    main .background .contents .img img{
+        width: 70px; height: 70px;
+    }
+    main .background .contents .text span{
+        font-size: 0.875rem;text-align: center;
+    }
+    main .background .contents ul li a img  {
+        width: 46px; height: 66px;
+    }
+    main .background .contents ul {
+        display: flex;
+        margin:  0 auto;
+        flex-flow: column;
+    }
+    main .background .contents ul li  {
+        padding: 29px 0 32px; width: 205px;;
+    }
+    main .background .contents ul li a span {
+        font-size: 0.875rem; 
+    }
+}
+@media screen and (max-width:430px){
+    main .background .contents{
+        padding: 13px;
+    }
+    main .background .contents ul {
+        display: flex;
+        margin:  0 auto;
+        flex-flow: column;
+    }
+    main .background .contents ul li  {
+        padding: 29px 0 32px; width: 128px;;
+        padding: 16px 0 16px;
+    }
+    main .background .contents .text span{
+        margin-bottom: 6px;
+        text-align: center;
+    }
+    main .background .contents .text span:nth-child(1){
+        border-bottom: 1px dashed #a5a5a5;
+    }
+}

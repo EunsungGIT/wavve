@@ -1,0 +1,39 @@
+@media screen and (max-width:1240px){
+    main .mypage_top_wrap .mypage_top {
+        padding: 0 60px;
+    }
+    main .mypage_bottom_wrap .mypage_bottom {
+        padding: 0 60px;
+    }
+    main section {
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width:1024px){
+    main .mypage_bottom_wrap .mypage_bottom .mypage_left {
+        align-items: center;
+    }
+    main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_info p {
+        display: none;
+    }
+    main .mypage_bottom_wrap .mypage_bottom .mypage_right {
+        display: flex; flex-flow: column nowrap;
+    }
+    main .mypage_bottom_wrap .mypage_bottom .mypage_right a {
+        margin: 5px 0;
+    }
+}
+@media screen and (max-width:768px){
+    main .mypage_top_wrap .mypage_top a {
+        margin-right: 10px;
+    }
+    main .mypage_top_wrap .mypage_top a img {
+        display: none;
+    }
+    main .mypage_bottom_wrap .mypage_bottom .mypage_left .profile_photo {
+        display: none;
+    }
+    main section h2 {
+        font-size: 1.125rem;
+    }
+}

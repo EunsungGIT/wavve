@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로필 수정 : 웨이브</title>
+    <link rel="shortcut icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link rel="icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/profile_edit.css">
+    <link rel="stylesheet" href="./styles/reaction_type/profile_edit_reaction.css">
+</head>
+<body>
+    <section>
+        <h1><a href="./index.html"><img src="./images/porfile_edit/logo.svg" alt="Wavve"></a></h1>
+        <form action="#" method="get" id="profileFrm">
+            <fieldset>
+                <legend class="skip">프로필 수정 양식</legend>
+                <h2>프로필 수정</h2>
+                <p><img src="./images/porfile_edit/profile.png" alt="프로필"></p>
+                <a href="#">프로필 이미지 변경 <img src="./images/porfile_edit/more.png" alt="더보기"></a>
+                <label for="user_name">이름변경 <input type="text" id="user_name" placeholder="1자~10자까지 가능합니다. (띄어쓰기 포함)" maxlength="10"></label>
+                <div class="profile_wrap">
+                    <img src="./images/porfile_edit/profile.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_16.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_2.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_3.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_4.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_5.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_6.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_7.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_8.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_9.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_10.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_11.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_12.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_13.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_14.png" alt="프로필">
+                    <img src="./images/porfile_edit/profile_15.png" alt="프로필">
+                </div>
+                <div class="button">
+                    <button type="button" id="cancelBtn" onclick="location.href='index.html'">취소</button>
+                    <button type="button" id="checkBtn" onclick="location.href='./index.html'">확인</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <script src="./script/profile_edit.js"></script>
+</body>
+</html>

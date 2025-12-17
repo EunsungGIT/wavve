@@ -1,0 +1,44 @@
+@media screen and (max-width:1240px){
+    section {
+        padding: 0 60px;
+    }
+
+   
+}
+@media screen and (max-width:768px){
+    main .find_id {
+        background: #1b1b1b;
+    }
+
+    main .find_id .find_box h2 {
+        display: none;
+    }
+    main .find_id .find_box #findIdFrm fieldset #submitBtn {
+        margin-top: 20px;
+    }
+    main .find_id .find_box p {
+        font-size: 1.125rem;
+    }
+    main .find_id .find_box p  strong {
+        font-size: 1.125rem;
+    }
+
+    main .find_id .find_box .sns_join {
+        padding: 30px 0px;
+    }
+
+    main .find_id .find_box .sns_join a  img {
+        width: 50px; height: 50px;
+    }
+    main .find_id .common_box h2 {
+        display: none;
+    }
+    main .find_id .common_box .method {
+        margin-top: -10px;
+        width: 100%;
+    }
+    main .find_id .common_box .method a {
+        
+        height: 80%;
+    } 
+}   

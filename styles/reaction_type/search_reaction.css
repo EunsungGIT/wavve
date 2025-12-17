@@ -1,0 +1,25 @@
+@media screen and (max-width:1240px){
+    main {padding: 0 60px;}
+}
+@media screen and (max-width:768px){
+    main .category {
+        flex-flow: column nowrap;
+    }
+    main .category #movieBtn {
+        margin: 10px 0;
+    }
+    main .category #seriesBtn:hover,
+    main .category #movieBtn:hover {
+        width: 350px;
+    }
+}
+@media screen and (max-width:430px){
+    main .category #seriesBtn:hover,
+    main .category #movieBtn:hover {
+        width: 240px;
+    }
+    main .category #seriesBtn:hover::after,
+    main .category #movieBtn:hover::after {
+        content: '';
+    }
+}

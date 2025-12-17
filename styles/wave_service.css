@@ -1,0 +1,204 @@
+body {
+    background: #fff;
+}
+main {}
+main section {}
+main section .main_benner {
+    width: 100%; height: 80vh;
+    background-image: url(../images/wave_service/main_background_img.png); background-position: center; 
+    background-attachment:fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section .main_benner .benner_contents {
+    max-width: 1240px;    margin: 0 auto;
+    
+}
+main section .main_benner .benner_contents .contents_text {
+    display: flex; flex-flow: column nowrap;
+    max-width: 495px;text-align: center;
+}
+main section .main_benner .benner_contents .contents_text h2 {
+    font-size: 2.5rem; color: #fff; padding-top: 190px  ;
+}
+main section .main_benner .benner_contents .contents_text img {
+    width: 180px; margin: 0 auto; padding: 10px 0 30px;
+}
+main section .main_benner .benner_contents .contents_text .text_sub{
+    display: flex; flex-flow: column nowrap;
+}
+main section .main_benner .benner_contents .contents_text span {
+    color: #fff; font-size: 1.25rem; line-height: 30px;
+    letter-spacing: -1px;
+}
+
+/* 스와이프 */
+main section .product_benner {
+    max-width: 1270px; margin: 0 auto; 
+    overflow: hidden; position: relative;
+    padding: 30px; margin-top: 50px;
+}
+main section .product_benner .benner_main {}
+main section .product_benner .page_nav {
+    position: absolute; top: 0; text-align: right;
+    /* padding-top: 80px; */
+}
+main section .product_benner .benner_main .benner_contents {
+    display: flex; justify-content: space-around; 
+}
+main section .product_benner .benner_main .benner_contents .benner_text {
+    
+}
+main section .product_benner .benner_main .benner_contents .benner_text h1 {
+    font-size: 2.9rem; font-weight: 500; margin-bottom: 20px;
+}
+main section .product_benner .benner_main .benner_contents .benner_text p {
+    font-size: 1.5rem; color: #888; font-weight: 400; 
+    line-height: 35px;
+}
+main section .product_benner .benner_main .benner_contents .benner_img {
+    padding-top: 100px;
+}
+main section .product_benner .benner_main .benner_contents .benner_img img {}
+main section .product_benner #prev {
+    position: absolute; left: 50px;
+}
+main section .product_benner #next {
+    position: absolute; right: 50px;
+}
+/* nav사이 넓이 */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 10px);
+}
+
+
+main section .wavve_style{
+    width: 100%;
+    background: #f7f7f7;
+}
+main section .wavve_style .style_first{
+    max-width: 1240px; margin: 0 auto;
+    text-align: center; 
+}
+main section .wavve_style .style_first .content_wrap {
+    max-width: 1100px; margin: 0 auto;    padding: 120px 0;
+}
+main section .wavve_style .style_first .content_wrap .wrap_contents {
+}
+main section .wavve_style .style_first .content_wrap .wrap_contents .text1 {
+    font-size: 0.875rem; font-weight: 700; color: #23212a;
+}
+main section .wavve_style .style_first .content_wrap .wrap_contents .text2 {
+    font-size: 1.5rem; margin-bottom: 70px; color: #23212a;
+}
+main section .wavve_style .style_first .content_wrap .wrap_contents h1  {
+    font-size: 4.375rem; font-weight: 700; margin: 30px 0;  color: #23212a;
+}
+main section .wavve_style .style_first .content_wrap .wrap_contents h1 em {
+    font-size: 4.375rem; color: #1351f9; font-weight: 700;
+}
+main section .wavve_style .style_first .content_wrap .description {
+    margin: 50px 80px 0;  
+}
+main section .wavve_style .style_first .content_wrap .description ul {
+    display: flex;   width: 100%;
+}
+main section .wavve_style .style_first .first_wrap .description ul  li {
+    display: flex; flex-flow: column nowrap; width: 50%; 
+}
+main section .wavve_style .style_first .content_wrap .description ul  li h2 {
+    font-size: 1.5rem; font-weight: 400;
+}
+main section .wavve_style .style_first .content_wrap .description ul  li .text {
+    display: flex; flex-flow: column nowrap; margin-top: 13px;
+}
+main section .wavve_style .style_first .content_wrap .description ul  li .text span{
+    color: #888;  line-height: 24px;
+}
+main section .wavve_style .style_first .second_wrap .description ul  li {
+    display: flex; flex-flow: column nowrap;  
+    width: calc(100% / 3) ;
+    align-items: center;
+}
+main section .wavve_style .style_first .second_wrap .description ul  li img{
+    max-width: 53px; padding-bottom: 25px; 
+}
+main section .download {
+    padding: 120px 0; 
+    background-image: url(../images/wave_service/service_background_img.png);
+    background-size:contain;  background-position: center;
+    background-repeat: no-repeat;
+}
+main section .download .download_wrap {}
+main section .download .download_wrap .download_contents {
+    max-width: 1100px; margin: 0 auto;
+}
+main section .download .download_wrap .download_contents .contents_text {
+    text-align: center;
+    margin-bottom: 70px;
+}
+main section .download .download_wrap .download_contents .contents_text p {
+    color: #1351f9; font-weight: 700;
+}
+main section .download .download_wrap .download_contents .contents_text h2 {
+    margin: 10px; font-size: 4.375rem; font-weight: 700; color: #23212a;
+}
+main section .download .download_wrap .download_contents .contents_text span {
+    font-size: 1.5rem; color: #23212a;
+
+}
+main section .download .download_wrap .download_contents .bottom_contents {
+    text-align: center;
+}
+
+main section .use {
+    padding-bottom: 120px; border-bottom: 1px solid #d9d9d9;
+}
+main section .use .use_wrap {}
+main section .use .use_wrap .use_contents {
+    max-width: 1100px; margin: 0 auto;
+}
+main section .use .use_wrap .use_contents .use_text { 
+    text-align: center;
+}
+main section .use .use_wrap .use_contents .use_text p {
+    color: #1351f9; font-weight: 700;
+}
+main section .use .use_wrap .use_contents .use_text h2  {
+    font-size: 4.375rem ; font-weight: 700; color: #23212a; margin: 10px 0;
+}
+main section .use .use_wrap .use_contents .use_text .text_box {margin-bottom: 70px;}
+main section .use .use_wrap .use_contents .use_text .text_box span {
+    font-size: 1.5rem; color: #23212a; display: block;  
+}
+main section .use .use_wrap .use_contents .use_text .button {
+    align-items: center;
+}
+main section .use .use_wrap .use_contents .use_text .button  a {
+    margin: 0 auto;
+    font-size: 1.75rem; background: #1351f9; color: #fff;
+    padding: 20px; border-radius: 40px; width:483px ; display: block;
+}
+main section .follow {
+}
+main section .follow .follow_contents {
+    display: flex; max-width: 1100px; margin: 0 auto;
+    justify-content: space-between; 
+    padding: 60px 80px;  
+}
+main section .follow .follow_contents .follow_text {
+
+}
+main section .follow .follow_contents .follow_text p {
+    margin-bottom: 15px;
+}
+main section .follow .follow_contents .follow_text h1 {
+    font-size: 1.75rem ; font-weight: 700;
+}
+main section .follow .follow_contents .follow_link{}
+
+main section .follow .follow_contents .follow_link a img {
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {display: none;}

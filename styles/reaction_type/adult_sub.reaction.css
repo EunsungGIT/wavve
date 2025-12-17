@@ -1,0 +1,41 @@
+@media screen and (max-width:1240px){
+    
+}
+@media screen and (max-width:768px){
+    main .background .contents .text span {
+        font-size: 0.875rem;
+        line-height: 20px;  
+    }
+    main .background .contents .img img {
+        width: 70px; height: 70px;
+    }
+    main .background .contents .btn button {
+        font-size: 0.875rem;
+    }
+    main .background .contents .btn .cancellation {
+        margin-bottom: 10px;
+    }
+    main .background .contents .btn .cancellation{
+        width: 200px;
+    }
+    main .background .contents .btn .pw{
+        width: 278px 
+    }
+}
+@media screen and (max-width:430px){
+    main .background .contents{
+        padding: 13px;
+    }
+    
+    main .background .contents .text span {
+        font-size: 0.75rem;
+        padding: 10px; border-radius: 10px;
+        margin-bottom: 6px;
+    }
+    main .background .contents .btn .cancellation{
+        width: 175px;
+    }
+    main .background .contents .btn .pw{
+        width: 245px 
+    }
+}

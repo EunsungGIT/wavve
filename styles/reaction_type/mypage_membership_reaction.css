@@ -1,0 +1,17 @@
+@media screen and (max-width:1240px){
+    main .breakdown_title {padding: 40px 60px;}
+}
+@media screen and (max-width:768px){
+    main .breakdown_title h2 {
+        font-size: 1.375rem;
+    }
+    main .breakdown span {
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width:430px){
+    
+}
+@media screen and (max-width:320px){
+    
+}

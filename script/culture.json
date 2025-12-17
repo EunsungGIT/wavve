@@ -1,0 +1,102 @@
+[
+    {
+        "title":"4인용 식탁",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_01",
+        "link":"contents.html"
+    },
+    {
+        "title":"꼬리에 꼬리를 무는 그날 이야기",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_02",
+        "link":"contents02.html"
+    },
+    {
+        "title":"악인 취재기",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_03",
+        "link":"contents03.html"
+    },
+    {
+        "title":"도망쳐",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_04",
+        "link":"contents04.html"
+    },
+    {
+        "title":"과몰입 인생사",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_05",
+        "link":"contents05.html"
+    },
+    {
+        "title":"스모킹 건",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_06",
+        "link":"contents.html"
+    },
+    {
+        "title":"너를 만났다",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_07",
+        "link":"contents02.html"
+    },
+    {
+        "title":"오은영의 금쪽 상담소",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_08",
+        "link":"contents03.html"
+    },
+    {
+        "title":"용감한 형사들",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_09",
+        "link":"contents04.html"
+    },
+    {
+        "title":"나는 자연인이다",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_10",
+        "link":"contents05.html"
+    },
+    {
+        "title":"특종세상",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_11",
+        "link":"contents.html"
+    },
+    {
+        "title":"강적들",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_12",
+        "link":"contents02.html"
+    },
+    {
+        "title":"인간극장",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_13",
+        "link":"contents03.html"
+    },
+    {
+        "title":"아침마당",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_14",
+        "link":"contents04.html"
+    },
+    {
+        "title":"실화탐사대",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_15",
+        "link":"contents05.html"
+    },
+    {
+        "title":"MBC 뉴스데스크",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_16",
+        "link":"contents.html"
+    },
+    {
+        "title":"당신이 혹하는 사이",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_17",
+        "link":"contents02.html"
+    },
+    {
+        "title":"그것이 알고싶다",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_18",
+        "link":"contents03.html"
+    },
+    {
+        "title":"궁금한 이야기 Y",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_19",
+        "link":"contents04.html"
+    },
+    {
+        "title":"추적 60분",
+        "thumbnail":"./images/data_img/culture_img/culture_banner_20",
+        "link":"contents05.html"
+    }
+]

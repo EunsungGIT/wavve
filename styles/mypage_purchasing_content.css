@@ -1,0 +1,53 @@
+main .purchasing_wrap {
+    background: #1b1b1b;
+}
+main .purchasing_wrap .purchasing_title {
+    background-color:#252525 ;
+    padding: 40px 0; margin-bottom: 40px;
+}
+main .purchasing_wrap .purchasing_title img {}
+main .purchasing_wrap .purchasing_title h1 {
+    font-size: 24px; color: #fff;
+    width: 1240px; margin: 0 auto;
+}
+/* 탭 전체*/
+main .purchasing_wrap .purchasing_middle .purchasing_title_tap {    border-bottom: 1px solid #2f2f2f; height: 68px;
+
+}
+/* 개별구매 탭*/
+main .purchasing_wrap  .purchasing_middle .purchasing_title_tap .taget {
+    color: #fff; font-size: 1.125rem;
+    /* border-bottom: 4px solid #1351f9; */
+    line-height: 63px;  
+    padding: 0 10px 19px;
+    margin-right: 10px;
+}
+
+/* 패키지 탭 */
+main .purchasing_wrap .purchasing_middle .purchasing_title_tap a {
+    color: #fff;  font-size: 1.125rem;
+
+}
+main .purchasing_wrap .purchasing_middle {
+    max-width: 1240px; margin: 0 auto;
+    position: relative;
+}
+
+
+/* 개별 구매 내역이 없어요 부분 */
+main .purchasing_wrap .purchasing_middle .not_purchasing_btm {
+    text-align: center;
+}
+main .purchasing_wrap .purchasing_middle .not_purchasing_btm .not_purchasing {
+    padding: 78px 0px 126px;
+}
+main .purchasing_wrap .purchasing_middle .not_purchasing_btm .not_purchasing img {}
+main .purchasing_wrap .purchasing_middle .not_purchasing_btm .not_purchasing  p {
+    font-size: 22px; color: #a5a5a5;
+    margin-top: 10px;
+}
+
+.mypage_border {
+    border-bottom: 4px solid #1351f9;
+    padding-bottom: 19px;
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width:1240px){
+    main .contents {
+        padding:  0 60px;
+    }
+    main .title  h1 {
+        padding:  0 60px;
+    }
+}
+@media screen  and (max-width:768px) {
+    main .adult .title h1 {font-size: 1.25rem;}
+    main .adult .contents h2 {font-size: 1.25rem;}
+    main .adult .contents ul li .title_box .label_input label::before{
+        width: 20px; height: 20px;
+    }
+    main .adult .contents ul li .title_box .label_input input:checked + label::before{
+        width: 20px; height: 20px;
+    }
+    main .adult .contents ul li label{ font-size: 0.875rem;}
+    main .adult .contents ul li img {
+        width:14px ; height: 14px;
+    }
+    main .adult .contents .pw_setting a {
+        font-size: 0.7rem; border: 1px solid #a5a5a5;
+        border-radius: 5px;
+        padding: 4px;
+        text-decoration: none;
+    }
+}

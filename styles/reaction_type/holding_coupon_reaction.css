@@ -1,0 +1,143 @@
+/* 쿠폰내역 */
+@media screen and (max-width:1240px){
+    /* 1240이면 이 디자인으로 보여라. */
+    main .holding_coupon_wrap { 
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    
+    main .holding_coupon_wrap .holding_title {
+        background-color:#252525 ;
+        border-radius: 5px;
+    }
+
+    main .holding_coupon_wrap .main_wrap { 
+        padding: 0 60px;
+    }
+    
+    /* 쿠폰내역 */
+    main .holding_coupon_wrap .holding_title h1 {
+        /* 24px - > 22px(1.375rem) */
+        font-size:  1.375rem; color: #fff;
+        padding: 0 60px;
+    }
+    main .holding_coupon_wrap .holding_coupon_middle .holding_middle_title .m_title
+    {display: none;}
+    /* 보유 쿠폰내역 */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_middle_title h3 {
+        font-size: 1.375rem; color:#fff;
+        margin-bottom: 10px;
+    }
+
+
+    /* 안에 회색박스 */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main {
+        width: 100%; height: 100%;
+    
+    }
+    /* 회색 박스 안 input  */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main form fieldset .holding_coupon_input{
+        width: 100%; 
+    }
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main form fieldset .holding_coupon_btn {
+
+    }
+    /* 인풋 밑 글자들 */
+   /* 공통 폰트 */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main .holding_coupon_container .holding_coupon_font{
+        font-size: 0.75rem; 
+    }
+
+    /* 보유쿠폰 | 소진 쿠폰 */
+    main .holding_coupon_wrap .main_wrap .holding_exhaust {
+        width: 100%; height: 100%;
+    }
+    
+    /* 보유쿠폰 소진쿠폰 공통 폰트 */
+    main .holding_coupon_wrap .main_wrap .holding_exhaust .holding_exhaust_nav li .coupon_font {
+        /* 18px - > 16px */
+        font-size: 1rem;
+    }
+
+    /* 보유쿠폰이 없어요 & 소진된 쿠폰이 없어요 이미지 */
+    main .holding_coupon_wrap  .main_wrap .not_coupon .not_coupon_img img{
+        width: 70px;
+    }
+    /* 이미지 밑 글자 공통 클래스 */
+    main .holding_coupon_wrap  .main_wrap .not_coupon .not_coupon_img p {
+        /* 22px - > 20px */
+        font-size: 1.25rem;
+    }
+
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main form fieldset .holding_coupon_btn {
+        font-size: 13px;
+        
+    }
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main form fieldset .holding_coupon_btn{
+        padding: 1px 35px 1px 35px;
+    }
+}
+
+@media screen and (max-width:776px){
+
+
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main {
+        width: 100%; height: 100%;
+        margin-top: 20px;
+    }
+
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main form fieldset .input_container {
+        flex-flow: column nowrap;
+    }
+
+
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main .holding_coupon_container {
+        display: flex; flex-flow: column nowrap;
+    }
+
+    /* 하단 세부내용 글자 오른쪽 */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main .holding_coupon_container .holding_coupon_font_right{
+
+    }
+
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main {
+        padding:20px 10px 20px 20px ;
+    
+    }
+    /* 인풋창 */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main form fieldset .holding_coupon_input{
+        /* width: 400px; height: 54px; */
+        width: 100%; height: 54px;
+        
+    }
+    /* 버튼 */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main form fieldset .holding_coupon_btn {
+        width: 100%; margin-top: 30px; 
+        height: 40px;
+    }
+    /* 보유 쿠폰 내역  */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_middle_title .m_title
+    {display: block;}
+    /* 보유 쿠폰내역 */
+    main .holding_coupon_wrap .holding_coupon_middle .holding_middle_title h3 {
+        font-size: 1.375rem; color:#fff;
+        display: none;
+    }
+
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main {
+        background-color: #1b1b1b;
+    }
+    main .holding_coupon_wrap .holding_coupon_middle .holding_coupon_main form fieldset .holding_coupon_input {
+        background-color: #1b1b1b;
+        text-align: center;
+    }
+  
+}
+
+
+@media screen and (max-width:430px){
+    
+}
+@media screen and (max-width:320px){
+    
+}

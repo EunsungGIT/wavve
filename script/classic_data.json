@@ -1,0 +1,248 @@
+[
+    {
+        "title":"상속者들",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_01.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title01.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro01.jpg",
+        "summary":"부유층 고교생들의 사랑과 우정을 그리는 청춘 트렌디 드라마",
+        "link":"contents.html"
+    },
+
+    {
+        "title":"7인의 탈출",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_02.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title02.png",
+        "intro":"./video/data_img/classic_intro02.mp4",
+        "summary":"수많은 사람들의 거짓말과 욕망이 뒤엉켜 사라진 한 소녀. 그 소녀를 찾기 위한 거대 프로젝트가 시작된다! 그리고 소녀의 실종에 연루된 7인 앞에 펼쳐진 믿을 수 없는 사건들, 이들은 이 위기를 어떻게 탈출할 것인가?",
+        "link":"contents02.html"
+    },
+
+    {
+        "title":"펜트하우스",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_03.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title03.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro03.jpg",
+        "summary":"100층 펜트하우스의 범접불가 '퀸' VS 모든 것을 집어삼키는 욕망의 '프리마돈나' VS 상류사회 입성을 향해 질주하는 '여자'. 채워질 수 없는 일그러진 욕망으로 집값 1번지, 교육 1번지에서 벌이는 부동산과 교육 전쟁!",
+        "link":"contents03.html"
+    },
+
+    {
+        "title":"SF8 에스 에프 에잇",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_04.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title04.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro04.jpg",
+        "summary":"가까운 미래를 배경으로 기술발전을 통해 완전한 사회를 꿈꾸는 인간들의 이야기. 한국판 오리지널 SF 앤솔러지 시리즈.",
+        "link":"contents04.html"
+    },
+
+    {
+        "title":"낭만닥터 김사부 시즌1",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_05.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title05.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro05.jpg",
+        "summary":"지방의 초라한 돌담병원을 배경으로 벌어지는 '괴짜 천재 의사' 김사부와 열정이 넘치는 젊은 의사 강동주, 윤서정이 펼치는 '진짜 닥터' 이야기",
+        "link":"contents05.html"
+    },
+
+    {
+        "title":"느낌",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_06.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title06.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro06.jpg",
+        "summary":"3형제를 중심으로 자신의 삶을 개척해가는 젊은이들의 이야기",
+        "link":"contents.html"
+    },
+
+    {
+        "title":"상두야,학교가자!",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_07.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title07.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro07.jpg",
+        "summary":"날제비 전과자 차상두와 채은환의 사랑이야기를 그린 드라마",
+        "link":"contents02.html"
+    },
+
+    {
+        "title":"프로듀사",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_08.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title08.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro08.jpg",
+        "summary":"예능국 안에서 펼쳐지는 이야기",
+        "link":"contents03.html"
+    },
+
+    {
+        "title":"고맙습니다",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_09.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title09.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro09.jpg",
+        "summary":"세상을 향해 마음을 닫아버린 유능한 의사 민기서와 아이가 에이즈에 걸렸지만 희망을 잃지 않고 씩씩하게 살아가는 이영신이 서로에게 기적이 되어주는 이야기",
+        "link":"contents04.html"
+    },
+
+
+    {
+        "title":"최고의사랑",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_10.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title10.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro10.jpg",
+        "summary":"전 국민이 사랑하는 남자와 전 국민이 욕하는 여자가 서로를 향한 마음으로 사랑하게 되는 과정을 그린 드라마",
+        "link":"contents05.html"
+    },
+
+
+    {
+        "title":"아들과 딸",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_11.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title11.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro11.jpg",
+        "summary":"남아선호사상이 뿌리깊은 집안에서 태어난 이란성 쌍둥이인 귀남이와 후남이가 사회의 가치관과 대립하면서 겪는 갈등을 다룬 드라마",
+        "link":"contents.html"
+    },
+
+
+    {
+        "title":"숙희",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_12.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title12.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro12.jpg",
+        "summary":"이름은 같지만 다른 환경의 두 명의 숙희에 관한 이야기",
+        "link":"contents02.html"
+    },
+
+    {
+        "title":"서울의 달",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_13.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title13.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro13.jpg",
+        "summary":"중학교를 중퇴한 홍식과 농고를 졸업하고 상경한 춘섭, 두 젊은이의 대조적인 삶을 통해 인간의 양면성을 그림과 동시에 서민들의 애환을 리얼하게 그린 드라마",
+        "link":"contents03.html"
+    },
+
+    {
+        "title":"내가 사는 이유",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_14.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title14.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro14.jpg",
+        "summary":"1970년대 마포를 배경으로 한 서민들의 이야기",
+        "link":"contents04.html"
+    },
+
+    {
+        "title":"마지막 승부",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_15.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title15.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro15.jpg",
+        "summary":"젊은이들의 승부와 좌절, 사랑을 숨 가쁘게 그려낸 농구 드라마",
+        "link":"contents05.html"
+    },
+
+    {
+        "title":"별은 내 가슴에",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_16.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title16.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro16.jpg",
+        "summary":"고아 출신으로 온갖 역경을 딛고 의상 디자이너로 성공하는 한 여자와 그녀를 사랑하는 한 청년의 이야기를 통해 고난을 극복해 나가는 삶을 그린 드라마",
+        "link":"contents.html"
+    },
+
+    {
+        "title":"한 지붕 세가족",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_17.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title17.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro17.jpg",
+        "summary":"이웃들이 살아가는 이야기를 담은 코믹 터치의 홈드라마",
+        "link":"contents02.html"
+    },
+
+    {
+        "title":"짝",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_18.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title18.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro18.jpg",
+        "summary":"세 명의 과부와 이들을 보고 자란 탓에 남성혐오증이 있는 처녀로 이뤄진 결손가정의 시끌벅적하면서 끈끈한 정이 넘쳐 흐르는 가족애를 다루는 홈드라마",
+        "link":"contents03.html"
+    },
+
+    {
+        "title":"더킹 영원의 군주",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_19.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title19.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro19.jpg",
+        "summary":"2020년 봄, 평행세계의 문이 열린다. 초행임에도 불구하고 이미 와본 적이 있다고 느끼거나 분명 처음 하는 일인데 전에 똑같은 일을 했던 것 같은 이상한 느낌. 우린 그것을 ‘데자뷰(Deja-vu)’라고 하고 현대의학은 ‘데자뷰’를 ‘지각...",
+        "link":"contents04.html"
+    },
+
+    {
+        "title":"피아노",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_20.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title20.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro20.jpg",
+        "summary":"아버지의 역할을 다하려는 한억관, 사랑하지만 사랑할 수 없는 사이인 재수와 수아, 밉고도 사랑스러운 경호, 이 넷이 진정한 가족으로 거듭나기 위해 몸부림치는 이야기",
+        "link":"contents05.html"
+    },
+
+    {
+        "title":"별을쏘다",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_22.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title22.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro22.jpg",
+        "summary":"매니저라는 직업을 통해 진실한 인간관계와 성공을 보여주는 드라마",
+        "link":"contents.html"
+    },
+
+    {
+        "title":"아내의유혹",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_23.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title23.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro23.jpg",
+        "summary":"현모양처였던 여자가 남편에게 버림받고 가장 무서운 요부가 되어 예전의 남편을 다시 유혹하여 파멸에 이르게 하는 복수극을 그린 드라마",
+        "link":"contents02.html"
+    },
+    {
+        "title":"그 겨울 바람이 분다",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_24.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title24.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro24.jpg",
+        "summary":"유년시절 부모로부터 버려지고 첫사랑에 실패한 후 의미 없는 삶을 사는 남자와 부모의 이혼과 오빠와의 결별, 갑자기 찾아온 시각 장애로 외롭고 고단한 삶을 사는 여자가 만나 차갑고 외로웠던 그들의 삶에서 희망과 진정한 사랑...",
+        "link":"contents03.html"
+    },
+    {
+        "title":"주군의 태양",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_25.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title25.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro25.jpg",
+        "summary":"인색하고 욕심 많은 유아독존 사장님과 음침하고 눈물 많은 영감 발달 여직원이 무섭지만 슬픈 사연을 지닌 영혼들을 위령하는 로코믹 호러 드라마",
+        "link":"contents04.html"
+    },
+
+    {
+        "title":"터치",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_26.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title26.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro26.jpg",
+        "summary":"최고의 메이크업 아티스트에서 빚쟁이 실업자로 전락한 차정혁과 연습생 10년을 거치고도 데뷔에 실패한 한수연. 바닥으로 떨어진 두 청춘이 만나 다시 꿈을 찾아가고 뜨겁게 사랑하는 초밀착 뷰티 로맨스",
+        "link":"contents05.html"
+    },
+    {
+        "title":"괜찮아 사랑이야",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_27.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title27.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro27.jpg",
+        "summary":"작은 외상에는 병적으로 집착하며 호들갑을 떨지만 마음의 병은 짊어지고 살아가는 현대인들의 삶과 사랑을 되짚어보는 이야기.",
+        "link":"contents.html"
+    },
+
+    {
+        "title":"언니는 살아있다!",
+        "thumbnail":"./images/data_img/wavve_classic_img/wavve_classic_banner_28.jpg",
+        "title_img":"./images/data_img/wavve_classic_img/classic_title28.png",
+        "intro":"./images/data_img/wavve_classic_img/classic_intro28.jpg",
+        "summary":"한날한시에 사랑하는 사람을 잃은 세 여자의 자립갱생기로, 여성들의 우정과 성공을 그린 드라마",
+        "link":"contents02.html"
+    }
+
+]
+
+
+

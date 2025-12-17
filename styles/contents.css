@@ -1,0 +1,328 @@
+/* main */
+main {background: #1b1b1b;}
+/* section */
+main section {max-width: 1240px; margin: 0 auto;}
+/* contents */
+main section .favorite{
+    background: #252525; position: fixed;
+    color: #fff; bottom: 50px;
+    left: 50%; transform: translateX(-50%);
+    padding: 40px 80px; border-radius: 50px;
+    z-index: 9999; font-size: 1.2rem;
+}
+main section .contents {position: relative;}
+main section .contents .video_bg {
+    width: 100%;
+    background: rgb(0,0,0); position: absolute; left: 0;
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%);
+}
+main section .contents .gradient_bg {
+    position: relative;
+}
+main section .contents .gradient_bg::before {
+    content: ''; display: inline-block;
+    background: rgb(27,27,27);
+    background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(0,0,0,0) 80%);
+    position: absolute; left: 0; top: 0;
+    width: 50%; height: 100%;
+}
+main section .contents .gradient_bg::after {
+    content: ''; display: inline-block;
+    background: rgb(27,27,27);
+    background: linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(0,0,0,0) 80%);
+    position: absolute; right: 0; bottom: 0;
+    width: 100%; height: 50%;
+}
+main section .contents video {width: 100%;}
+main section .contents .video_intro {
+    width: calc(100% - 440px);
+    position: absolute; left: 0; bottom: 0;
+}
+main section .contents .video_intro > img {}
+main section .contents .video_intro .logo {
+    width: 400px; margin: 30px 0;
+}
+main section .contents .video_intro .logo img {width: 100%;}
+main section .contents .video_intro .genre {
+    color: #a5a5a5; display: flex;
+    align-items: center; margin-top: 12px;
+}
+main section .contents .video_intro > p img {width: 24px;}
+main section .contents .video_intro .contents_box {
+    display: flex; margin-top: 24px;
+    position: relative;
+}
+main section .contents .video_intro .contents_box #optionBtn {
+    width: 240px; height: 48px; margin-right: 10px;
+    border: 1px solid #717171; color: #fff;
+    border-radius: 10px; display: flex;
+    padding-left: 20px; align-items: center;
+    justify-content: space-between;
+}
+main section .contents .video_intro .contents_box #optionBtn img {}
+main section .contents .video_intro .contents_box .button_m {
+    display: none;
+    position: absolute; left: 0; top: 55px;
+    width: 240px; height: 118px; background: #1b1b1b;
+    padding: 10px 0; border: 1px solid #717171;
+    border-radius: 10px; z-index: 500;
+}
+main section .contents .video_intro .contents_box .button_m a {
+    padding: 0 20px; color: #fff; height: 48px;
+    display: flex; align-items: center;
+}
+main section .contents .video_intro .contents_box .button_m a:hover{
+    background: #717171;
+}
+main section .contents .video_intro .contents_box #buyBtn {
+    width: 360px; height: 48px; padding: 0 40px;
+    background: #1351f9; border-radius: 10px;
+    color: #fff;
+}
+main section .contents .video_intro .contents_box .icon {
+    margin-left: 20px; display: flex;
+}
+main section .contents .video_intro .contents_box .icon a {
+    display: flex; flex-flow: column nowrap;
+    align-items: center; margin-right: 20px;
+}
+main section .contents .video_intro .contents_box .icon a img {margin: 0 10px;}
+main section .contents .video_intro .contents_box .icon a span {
+    color: #a5a5a5; font-size: 0.75rem;
+    margin-top: 4px;
+}
+main section .contents .video_intro .detail {
+    color: #a5a5a5;
+    margin-top: 24px;
+}
+main section .contents .video_intro .detail a {color: #fff;}
+main section .contents #muted {
+    width: 50px; padding: 10px;
+    position: absolute; right: 20px; bottom: 0;
+}
+main section .contents #muted img {width: 100%;}
+/* contents_info */
+main section .contents_info {
+    margin-top: 40px;
+}
+main section .contents_info .info_title {
+    width: 100%; border-bottom: 1px solid #2f2f2f;
+    height: 68px; 
+}
+main section .contents_info .info_title a {
+    color: #fff; font-size: 1.125rem;
+    line-height: 63px;  
+    padding: 0 10px 19px;
+}
+main section .contents_info .info_title a:nth-child(2),
+main section .contents_info .info_title a:nth-child(3){
+    margin-left: 20px;
+}
+main section .contents_info .info_contents {}
+/* 관련영상 */
+main section .contents_info .info_contents .contents_item {
+    padding-top: 20px; min-height: 550px;
+}
+main section .contents_info .info_contents .contents_item ul {
+    display: flex; flex-flow: row wrap;
+}
+main section .contents_info .info_contents .contents_item li {}
+main section .contents_info .info_contents .contents_item li:nth-child(1) {
+    margin-right: 10px;
+}
+main section .contents_info .info_contents .contents_item li a {
+    display: flex; flex-flow: column nowrap;
+}
+main section .contents_info .info_contents .contents_item li a .img_box {
+    border-radius: 10px; overflow: hidden;
+    width: 406px;
+}
+main section .contents_info .info_contents .contents_item li a .img_box img {
+    width: 100%;
+}
+main section .contents_info .info_contents .contents_item li a em {
+    color: #fff; margin-bottom: 4px;
+    margin-top: 8px;
+}
+main section .contents_info .info_contents .contents_item li a span {color: #a5a5a5}
+/* 추천 */
+main section .contents_info .info_contents .recommend {}
+
+/* 공유 */
+.share_bg {
+    background: rgba(0, 0, 0, 0.8); z-index: 9999;
+    position: fixed; height: 100vh; width: 100%;
+    top: 0;
+}
+.share_bg .share {
+    background: #252525; width: 460px;
+    height: 329px; border-radius: 10px;
+    padding: 40px; display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; align-items: center;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+.share_bg .share h2 {
+    margin-bottom: 28px; font-size: 1.5rem;
+    font-weight: 700; color: #fff;
+}
+.share_bg .share .twitter_facebook {
+    margin-bottom: 28px; display: flex;
+}
+.share_bg .share .twitter_facebook a {
+    display: flex; align-items: center;
+    flex-flow: column nowrap;
+}
+.share_bg .share .twitter_facebook a:first-child {margin-right: 40px;}
+.share_bg .share .twitter_facebook a img {}
+.share_bg .share .twitter_facebook a span {
+    color: #a5a5a5; margin-top: 11px;
+}
+.share_bg .share .link_copy {}
+.share_bg .share .link_copy #link {
+    width: 255px; height: 38px; color: #a5a5a5;
+    padding: 9px 14px; background: #2f2f2f;
+    font-size: 0.875rem;
+}
+.share_bg .share .link_copy #copyBtn {
+    width: 79px; height: 37px;
+    margin-left: 6px; color: #fff;
+    font-weight: 700; background: #1351f9;
+    border-radius: 50px; font-size: 0.875rem;
+}
+.share_bg .share > a {
+    position: absolute; top: 0; right: -40px;
+}
+.share_bg .share > a img {}
+.share_bg .copy {
+    background: #252525; position: absolute;
+    color: #fff; bottom: 50px;
+    left: 50%; transform: translateX(-50%);
+    padding: 40px 80px; border-radius: 50px;
+    z-index: 9999; font-size: 1.2rem;
+}
+
+main section .contents_info {
+    position: relative;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+main section .contents_info .info_contents .recommend .img_container {}
+main section .contents_info .info_contents .recommend .img_container .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+main section .contents_info .info_contents .recommend .img_container .title span {
+    font-size: 1.5rem; color: #fff;
+}
+main section .contents_info .info_contents .recommend .img_container .title a {
+    color: #a5a5a5;
+}
+main section .contents_info .info_contents .recommend .img_container .title a img {}
+/* 믿고 보는 웨이브 에디터 추천작 */
+main section .contents_info .info_contents .recommend .img_container .wavve_images {
+    position: relative;
+    overflow: hidden;
+}
+main section .contents_info .info_contents .recommend .img_container .wavve_images .wavve_img {} 
+main section .contents_info .info_contents .recommend .img_container .wavve_images .wavve_img .swiper-slide {
+    border-radius: 25px; width: 240px;
+    overflow: hidden;
+}
+main section .contents_info .info_contents .recommend .img_container .wavve_images .wavve_img a img {
+    width: 100%; border-radius: 25px;
+}
+main section .contents_info .info_contents .recommend .img_container .wavve_images .wavve_img a img:hover {
+    transform: scale(1.1); transition:  0.3s;
+}
+
+main section .contents_info .info_contents .recommend .img_container .wavve_images .prev {
+    position: absolute;
+    top: 50%; left: 0px;
+    transform: translateX(-30px);
+    transition: 0.2s;
+}
+main section .contents_info .info_contents .recommend .img_container .wavve_images .prev::after{
+    display: none;
+}
+
+main section .contents_info .info_contents .recommend .img_container:hover  .wavve_images .prev {
+    transform: translateX(0);
+}
+main section .contents_info .info_contents .recommend .img_container .wavve_images .prev > .test {}
+main section .contents_info .info_contents .recommend .img_container .wavve_images .next {
+    position: absolute;
+    top: 50%; right: 0px;
+    transform: translateX(30px);
+    transition: 0.2s;
+}
+
+main section .contents_info .info_contents .recommend .img_container .wavve_images .next::after{
+    display: none;
+}
+
+main section .contents_info .info_contents .recommend .img_container:hover  .wavve_images .next{
+    transform: translateX(0);
+} 
+
+/* 상세정보 */
+main section .contents_info .information {
+    margin-top: 15px; padding-bottom: 60px;
+}
+main section .contents_info .information .information_box {}
+main section .contents_info .information .information_box .information_contents{
+    display: flex;
+}
+main section .contents_info .information .information_box .information_contents .img {}
+main section .contents_info .information .information_box .information_contents .img img {
+    width: 185px; border-radius: 10px;
+}
+main section .contents_info .information .information_box .information_contents .main_text{
+    margin: 0 0 0 24px; padding: 0 0 20px;
+}
+main section .contents_info .information .information_box .information_contents .main_text .text_box {}
+main section .contents_info .information .information_box .information_contents .main_text .text_box em {color: #fff;}
+main section .contents_info .information .information_box .information_contents .main_text .text_box .explanation{
+    color: #a5a5a5 ; line-height: 24px;
+}
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information{
+    display: flex; flex-flow: row wrap;
+}
+
+/* 공통css */
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information img {width: 50px; height: 50px;}
+/* 색상 */
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information dt,main section .contents_info .information .information_box .information_contents .main_text .detailed_information dd,main section .contents_info .information .information_box .information_contents .main_text .detailed_information a{color: #fff;
+    padding-top: 30px   ; 
+}
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information dt{width: 76px;  font-weight: 400;}
+
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information dd a:hover{
+    text-decoration: underline;
+}
+
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information dd{ width: calc(100% - 76px);}
+
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information em { color: #a5a5a5;}
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information dd .content_information  { 
+    display: flex; flex-flow: row wrap;
+}
+main section .contents_info .information .information_box .information_contents .main_text .detailed_information dd .content_information span { 
+display:  flex ; flex-flow: column nowrap; margin-right: 16px;
+}
+
+main section .contents_info .info_contents .contents_item ul{
+    display: flex;
+}
+
+/* 자바스크립트용  */
+.contants_border {
+    border-bottom: 4px solid #1351f9;
+}
+.toggle_block{
+    display: block;
+}

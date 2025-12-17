@@ -1,0 +1,40 @@
+@media screen and (max-width:1240px){
+    section {padding: 0 60px;}
+
+}
+@media screen and (max-width:768px){
+
+    section .self_wrap .contests_background .contents {
+        background:#1b1b1b;
+    }
+    section .self_wrap .contests_background .contents h2 {
+        display: none;
+    }
+    section .self_wrap .contents .banner img {
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+    section .contents ul {
+        margin-top: -10px;
+    }
+    section .contents ul li {
+        padding: 25px 0 25px;
+    }
+    
+    section .self_wrap .contents .text p em {
+        font-size: 0.8125rem;
+    }
+    section .self_wrap .contents .text p {
+        display: block;
+        font-size:0.8125rem;
+        
+    }
+    section .self_wrap .contents .text a {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    section .self_wrap .contents .skip_main a {
+        font-size: 0.875rem;
+        margin-top: -16px;
+    }
+}

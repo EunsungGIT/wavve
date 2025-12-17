@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>코인충전 팝업</title>
+    <link rel="shortcut icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link rel="icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap">         
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/payment.css">
+    <link rel="stylesheet" href="./styles/reaction_type/coin_charging_page_reaction.css">
+</head>
+<body>
+        <div class="coin_charging_wrap">
+            <div class="coin_charging_title">
+                <h1>결제</h1>
+            </div>
+            <div class="coin_charging_middle">
+                <a href="#" class="tab_title tab_nomal">1개월 </a>
+                <a href="#" class="tab_title tab_auto">12개월</a>
+            </div>
+        </div>
+    <div class="coin_wrap">
+        <!-- 일반 충전 -->
+        <form id="frm_payment1" method="post">
+            <fieldset>
+                <legend class="skip">일반 결제</legend>
+                <!-- 일반 : 결제내용 -->
+                <div class="charging_content">
+                    <h2>결제내용</h2>
+                    <div class="charging_coin_list">
+                        <div class="left">결제할 상품</div>
+                        <div class="right">
+                            <label>
+                                <input type="radio" name="chk1" id="normal_coin1" checked="checked">
+                                <span>Basic ₩7,900</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="chk1" id="normal_coin2">
+                                <span>Standard ₩10,900</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="chk1" id="normal_coin3">
+                                <span>Premium ₩13,900 </span>
+                            </label>
+                            <label>
+                                <input type="radio" name="chk1" id="normal_coin4">
+                                <span>Basic X FLO 무제한 ₩13,750</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="coin_result">
+                        <div class="left">최종 결제 금액</div>
+                        <div class="right"><span class="price">7,900</span>원</div>
+                    </div>
+                </div>
+                <!-- 일반 : 결제 수단 선택 -->
+                <div class="payment_box">
+                    <h2>결제수단 선택</h2>
+                    <div class="payment_content">
+                        <div class="fast_pay">
+                            <input type="radio" id="normal_pay_btn" name="card_btms1" value="normal_pay_btn" checked="checked">
+                            <label for="normal_pay_btn">빠른결제</label>
+                        </div>
+                        <div class="card_pay_ment_box">
+                            <!-- 스와이프 시작. -->
+                            <div class="swiper-container crad_container">
+                                <div class="swiper-wrapper card_wrap">
+                                    <div class="swiper-slide kb_img">
+                                        <a href="#"><img src="./images/holding_coin/coin_card-kb.png" alt=""></a>
+                                    </div>
+                                    <div class="swiper-slide card_register_img">
+                                        <a href="#"><img src="./images/holding_coin/coin_card_register.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <a class="swiper-button-next" id="coin_next" tabindex="0" role="button">
+                                    <img src="./images/holding_coin/coin_btn-arrow-right.png" alt=""></a>
+                                <a class="swiper-button-prev" id="coin_prev" role="button">
+                                    <img src="./images/holding_coin/coin_btn-arrow-left.png" alt=""></a>
+                            </div>
+                            <!-- 스와이퍼 끝 -->
+                            <p class="card_content">등록된 카드는 [회원정보]에서 관리하실 수 있습니다.</p>
+                        </div>
+                        <div class="card_btm">
+                            <div class="other_pay">
+                                <input type="radio" id="card_normal_btms" name="card_btms1" value="card_normal_btms">
+                                <label for="card_normal_btms">다른 결제수단</label>
+                            </div>
+                            <!-- 다른 결제 수단에 신용카드 이미지 -->
+                            <ul class="card_btm_content">
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/holding_coin/coin_icon-card_img.png" alt="카드이미지">
+                                        <span>신용카드</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/holding_coin/coin_logo-payco_img.png" alt="페이코이미지">
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/holding_coin/coin_icon-phone_img.png" alt="">
+                                        <span>휴대폰</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/holding_coin/coin_logo-kakao-pay_img.png" alt="">
+                                        <span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 일반 : 버튼 -->
+                <ul class="card_btm_btn">
+                    <li><button type="button" id="card_normal_cancle" class="close_btn">취소</button></li>
+                    <li><button type="button" id="card_normal_payment" class="next_btn">다음</button></li>
+                </ul>
+            </fieldset>
+        </form>
+        <!-- 자동 충전 -->
+        <form id="frm_payment2" method="post">
+            <fieldset>
+                <legend class="skip">자동 충전</legend>
+                <!-- 자동 : 결제내용 -->
+                <div class="charging_content">
+                    <h2>결제내용</h2>
+                    <div class="charging_coin_list">
+                        <div class="left">결제할 상품</div>
+                        <div class="right">
+                            <label>
+                                <input type="radio" name="chk2" id="auto_coin5" checked="checked" >
+                                <span>Premium 12개월 16%
+                                    ₩139,000</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="chk2" id="auto_coin6">
+                                <span>Standard 12개월 16%
+                                    ₩109,000</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="chk2" id="auto_coin7">
+                                <span>Basic 12개월 16%
+                                    ₩79,000</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="coin_result">
+                        <div class="left">최종 결제 금액</div>
+                        <div class="right"><span class="price">139,000</span>원</div>
+                    </div>
+                </div>
+                <!-- 자동 : 결제 수단 선택 -->
+                <div class="payment_box">
+                    <h2>결제수단 선택</h2>
+                    <div class="payment_content">
+                        <div class="fast_pay">
+                            <input type="radio" id="auto_pay_btn" name="card_btms2" value="auto_pay_btn" checked="checked">
+                            <label for="auto_pay_btn">빠른결제</label>
+                        </div>
+                        <div class="card_pay_ment_box">
+                            <!-- swiper -->
+                            <div class="swiper-container crad_container">
+                                <div class="swiper-wrapper card_wrap">
+                                    <div class="swiper-slide kb_img">
+                                        <a href="#"><img src="./images/holding_coin/coin_card-kb.png" alt=""></a>
+                                    </div>
+                                    <div class="swiper-slide card_register_img">
+                                        <a href="#"><img src="./images/holding_coin/coin_card_register.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <a class="swiper-button-next" id="coin_next" tabindex="0" role="button">
+                                    <img src="./images/holding_coin/coin_btn-arrow-right.png" alt=""></a>
+                                <a class="swiper-button-prev" id="coin_prev" role="button">
+                                    <img src="./images/holding_coin/coin_btn-arrow-left.png" alt=""></a>
+                            </div>
+                            <!-- 스와이퍼 끝 -->
+                            <p class="card_content">등록된 카드는 [회원정보]에서 관리하실 수 있습니다.</p>
+                        </div>
+                        <div class="card_btm">
+                            <div class="other_pay">
+                                <input type="radio" id="card_auto_btms" name="card_btms2" value="card_auto_btms">
+                                <label for="card_auto_btms">다른 결제수단</label>
+                            </div>
+                            <!-- 다른 결제 수단에 신용카드 이미지 -->
+                            <ul class="card_btm_content">
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/holding_coin/coin_icon-card_img.png" alt="카드이미지">
+                                        <span>신용카드</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/holding_coin/coin_logo-payco_img.png" alt="페이코이미지">
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/holding_coin/coin_icon-phone_img.png" alt="">
+                                        <span>휴대폰</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/holding_coin/coin_logo-kakao-pay_img.png" alt="">
+                                        <span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 자동 : 버튼 -->
+                <ul class="card_btm_btn">
+                    <li><button type="button" id="card_auto_cancle"class="close_btn" >취소</button></li>
+                    <li><button type="button" id="card_auto_payment" class="next_btn">다음</button></li>
+                </ul>
+            </fieldset>
+        </form>
+        <!-- 공통 : 주의사항 -->
+    </div>
+    <script src="./script/payment.js"></script>
+</body>
+</html>

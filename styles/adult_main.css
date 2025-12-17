@@ -1,0 +1,85 @@
+main {
+    background: #1b1b1b;
+}
+main .adult {
+    background: #1b1b1b; 
+    padding-bottom: 80px;
+}
+main .adult .title {
+    padding: 40px 0px; margin-bottom: 40px; background: #252525; 
+    max-width: 100%; margin: 0 auto;
+}
+main .adult .title h1 {
+    font-size: 1.5rem ;color: #fff;
+    margin: 0 34.5px;
+    max-width: 1240px; margin: 0 auto;
+}
+main .adult .contents {
+    justify-content: center;
+    display: flex; flex-flow: column;
+    padding-bottom: 80px; margin: 0 34.5px;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+main .adult .contents ul li .title_box .label_input {
+    display: flex ;  
+}
+main .adult .contents ul li .title_box .label_input input{
+    display: none; 
+}
+main .adult .contents ul li .title_box .label_input label::before {
+    position: relative; bottom: 3px;
+    content: '';
+    display: inline-block;
+    background-image: url(../images/adult/cheak.png);
+    background-size: cover; 
+    width: 23px;
+    height:23px;
+    margin-right:10px;
+}
+main .adult .contents ul li .title_box .label_input input:checked + label::before {
+    position: relative; bottom: 3px;
+    content: '';
+    display: inline-block;
+    background-image: url(../images/adult/cheak_input.png);
+    background-size: cover; 
+    width: 23px;
+    height:23px;
+}
+main .adult .contents h2 {
+    font-weight: 700;
+    font-size: 1.5rem; color: #a5a5a5;
+    padding: 40px 0; 
+}
+main .adult .contents ul{ }
+main .adult .contents ul li{
+    padding: 28px 0; border-bottom: 1px solid #2f2f2f;
+}
+/* 공통 이미지 크기조정 */
+main .adult .contents ul li img{
+    width: 16px; height: 16px; position: relative; top: 2px;
+    margin-left: 8px;
+}
+
+main .adult .contents ul li label {
+    display: flex;   color: #fff; margin-right: 8px;
+}
+main .adult .contents ul li .title_box .first_contents input{
+    margin-right: 5px;
+}
+main .adult .contents ul li label span {
+    
+}
+main .adult .contents ul li .main_text {
+}
+main .adult .contents ul li .main_text span {
+    font-size: 0.875rem; color: #a5a5a5;
+}
+main .adult .contents .pw_setting {
+    margin-top: 28px; display: flex; 
+    justify-content: right;
+}
+main .adult .contents .pw_setting a {
+    color: #a5a5a5; text-decoration: underline;
+    font-size: 0.875rem;  
+}

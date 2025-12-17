@@ -1,0 +1,85 @@
+@media screen and (max-width:1240px){
+    .broadcasting,
+    .broadcasting_announcement {
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width:1024px){
+    .broadcasting,
+    .broadcasting_announcement {
+        padding: 0 30px;
+    }
+    main section .day_warp .day_contents .contents_all .date_list li a span {
+        font-size: 2.25rem;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .contents_more a h2 {
+    position: absolute; left: -5px;
+    top: -22px;
+    font-size: 1rem;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .contents_more a h2::before {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .broadcasting,
+    .broadcasting_announcement {
+        padding: 0 5px;
+    }
+    main section .time button  {
+        top: 87%; right: 45%;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_header h1 {
+        font-size: 1.75rem; 
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main li .main_contents h1{
+        font-size: 1.25rem;
+    }
+    main section .day_warp .day_contents .contents_all .date_list li a span {
+        font-size: 1.75rem; padding: 4px 4px;
+    }
+    main section .broadcasting_announcement{
+        padding-top: 50px;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .title a{
+        font-size: 1.125rem;  position: relative; left: -60px;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .title span{
+        position: relative; left: -60px;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_header{
+        flex-flow: column-reverse nowrap;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main li{
+        padding: 28px 0px; margin-bottom: 26px;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .contents_more a span{
+        display: none;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main li .main_contents .contents_more a i{
+        font-size: 1.5rem;
+    }
+    main section .day_warp .day_contents .contents_all i {display: none}
+    main section .day_warp .day_contents .contents_all .date_list li a {
+        padding: 9px 1px;
+    }
+    main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .contents_more a h2 {
+        left: 59px;
+        top: -55px;
+        font-size: 0.825rem;
+        position: relative;
+        }
+        main section .broadcasting_announcement .contents_all .announcement_main .on_air .main_contents .contents_more a h2{
+            padding: 0;
+        }
+        main section .broadcasting_announcement .contents_all .announcement_header h1 img{
+            width: 135px;
+        }
+}
+
+@media screen and (max-width:430px){
+ 
+}

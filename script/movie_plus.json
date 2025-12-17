@@ -1,0 +1,102 @@
+[
+    {
+        "title":"엘리멘탈",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_01",
+        "link":"contents.html"
+    },
+    {
+        "title":"더 이퀄라이저3",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_02",
+        "link":"contents02.html"
+    },
+    {
+        "title":"범죄도시",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_03",
+        "link":"contents03.html"
+    },
+    {
+        "title":"범죄도시3",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_04",
+        "link":"contents04.html"
+    },
+    {
+        "title":"고질라vs콩",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_05",
+        "link":"contents05.html"
+    },
+    {
+        "title":"듄",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_06",
+        "link":"contents.html"
+    },
+    {
+        "title":"곡성",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_07",
+        "link":"contents02.html"
+    },
+    {
+        "title":"애프터 에버 해피",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_08",
+        "link":"contents03.html"
+    },
+    {
+        "title":"99번의 정사",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_09",
+        "link":"contents04.html"
+    },
+    {
+        "title":"30일",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_10",
+        "link":"contents05.html"
+    },
+    {
+        "title":"오펜하이머",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_11",
+        "link":"contents.html"
+    },
+    {
+        "title":"3일의 휴가",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_12",
+        "link":"contents02.html"
+    },
+    {
+        "title":"아쿠아맨과 로스트 킹덤",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_13",
+        "link":"contents03.html"
+    },
+    {
+        "title":"노량 죽음의 바다",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_14",
+        "link":"contents04.html"
+    },
+    {
+        "title":"서울의 봄",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_15",
+        "link":"contents05.html"
+    },
+    {
+        "title":"외계+인 2부",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_16",
+        "link":"contents.html"
+    },
+    {
+        "title":"미션 임파서블 데드 레코닝",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_17",
+        "link":"contents02.html"
+    },
+    {
+        "title":"위시",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_18",
+        "link":"contents03.html"
+    },
+    {
+        "title":"애프터 유혹의 끝",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_19",
+        "link":"contents04.html"
+    },
+    {
+        "title":"범죄도시2",
+        "thumbnail":"./images/data_img/movie_plus_img/movie_plus_banner_20",
+        "link":"contents05.html"
+    }
+]

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wavve(웨이브) = 1:1 문의하기</title>
+    <link rel="shortcut icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link rel="icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/customer_service_inquiry.css">
+    <link rel="stylesheet" href="./styles/reaction_type/customer_service_inquiry_reaction.css">
+</head>
+<body>
+    <!-- UP 버튼 -->
+    <button type="button" id="up"><img src="./images/common/up.png" alt="위로가기"></button>
+    <h1><a href="./index.html"><img src="./images/common/logo.svg" alt="Wavve"></a></h1>
+    <!-- main -->
+    <main>
+        <div class="inquiry_top">
+            <h2 class="w_title">1:1 문의하기</h2>
+            <h2 class="m_title">1599-3709</h2>
+            <p class="m_content">평일 09:00-18:00 · 점심시간 12:00-13:00</p>
+            <p class="m_content">주말 및 공휴일 휴무</p>
+            <p>
+                Wavve 서비스 이용 시 불편사항이나 문의사항을 보내주시면 신속하고 친절하게 안내해 드리겠습니다!<br>
+                사용환경 및 상세사항을 적어주시면 정확하고 빠른 답변이 가능하며,<br>
+                비회원일 경우 메일을 보내시기 전, 이름, 이메일, 질문유형이 정확한지 다시 한번 확인해주세요!
+            </p>
+        </div>
+        <p class="text">항목은 필수 입력 항목입니다.</p>
+        <form action="#" method="post" id="inquiryFrm">
+            <fieldset>
+                <legend class="skip">1:1 문의 양식</legend>
+                <dl>
+                    <dt>이름</dt>
+                    <dt class="m_name">이름</dt>
+                    <dd>
+                        <input type="text" placeholder="이름을 입력해 주세요.(특수문자 입력 불가)" id="user_name">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>이메일 주소</dt>
+                    <dt class="m_name">이메일</dt>
+                    <dd>
+                        <input type="email" placeholder="이메일을 입력해 주세요" id="user_email">
+                        <span>위 이메일로 답변을 드리기 때문에, 정확히 입력해 주시길 바랍니다.</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>연락처</dt>
+                    <dt class="m_name">연락처</dt>
+                    <dd>
+                        <input type="tel" placeholder="연락처를 입력해주세요." id="user_num">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>질문 구분</dt>
+                    <dt class="m_name">질문</dt>
+                    <dd>
+                        <select name="question" id="question">
+                            <option value="">이용불편사항</option>
+                            <option value="">설치/작동 오류</option>
+                            <option value="">결제/요금 단순 문의</option>
+                            <option value="">콘텐츠요청</option>
+                            <option value="">회원정보</option>
+                            <option value="">해외사용오류</option>
+                            <option value="">기타</option>
+                            <option value="">해지/취소/환불 접수</option>
+                        </select>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>서비스 구분</dt>
+                    <dt class="m_name">서비스</dt>
+                    <dd>
+                        <input type="checkbox" id="live">
+                        <label for="live">LIVE</label>
+                        <input type="checkbox" id="vod">
+                        <label for="vod">VOD</label>
+                        <input type="checkbox" id="movie">
+                        <label for="movie">영화</label>
+                        <input type="checkbox" id="timemachine">
+                        <label for="timemachine">타임머신</label>
+                        <input type="checkbox" id="download">
+                        <label for="download">다운로드</label>
+                        <input type="checkbox" id="serviceNone">
+                        <label for="serviceNone">기타</label>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>프로그램 정보</dt>
+                    <dt class="name">프로그램</dt>
+                    <dd>
+                        <textarea name="program_info" id="program_info" cols="30" rows="10" maxlength="150" placeholder="회차, 방송일, 시간 등
+                        예) 11월 11일 사랑의 온도 오후 10시경, 무한도전 12월 4일 416회 등!"></textarea>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>사용환경1 (디바이스)</dt>
+                    <dt class="m_name">사용환경1</dt>
+                    <dd>
+                        <input type="checkbox" id="pcWeb">
+                        <label for="pcWeb">PC web</label>
+                        <input type="checkbox" id="androidPhone">
+                        <label for="androidPhone">안드로이드 폰</label>
+                        <input type="checkbox" id="iPhone">
+                        <label for="iPhone">아이폰</label>
+                        <input type="checkbox" id="androidTablet">
+                        <label for="androidTablet">안드로이드 태블릿</label>
+                        <input type="checkbox" id="iPad">
+                        <label for="iPad">아이패드</label>
+                        <input type="checkbox" id="smartTv">
+                        <label for="smartTv">스마트TV</label>
+                        <input type="checkbox" id="none">
+                        <label for="none">기타</label>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>사용환경2 (OS, 브라우저)</dt>
+                    <dt class="m_name">사용환경2</dt>
+                    <dd>
+                        <textarea name="os_browser" id="os_browser" cols="30" rows="10" placeholder="예) 윈도우7 IE 8, 안드로이드 4.2.2, iOS 9.1등" maxlength="150"></textarea>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>문의하기</dt>
+                    <dt class="m_name">문의</dt>
+                    <dd>
+                        <input type="text" id="inquiry_box" placeholder="문의 제목을 입력해 주세요.">
+                        <textarea name="inquiry_contents" id="inquiry_contents" cols="30" rows="10" maxlength="150" placeholder="문의 내용을 입력해 주세요."></textarea>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>개인정보 수집 이용에 대한 동의</dt>
+                    <dt class="m_name">개인정보 수집 동의</dt>
+                    <dd>
+                        수집 항목 : 이름, 이메일, 연락처(휴대폰번호 등), 사용환경 정보(디바이스, OS, 브라우저 등)<br>
+                        수집 목적 : 서비스 이용에 따른 고객 문의, 불만처리, 오류 해결 등 민원 처리 및 결과 회신<br>
+                        보유 및 이용 기간 : <strong>문의처리 후 3년간 보관</strong><br>
+                        <span>그 밖의 사항은 개인정보 처리방침을 준수합니다.</span>
+                        <input type="checkbox" id="agree">
+                        <label for="agree">개인정보 수집 이용에 대해 동의합니다.</label>
+                    </dd>
+                </dl>
+            </fieldset>
+            <div class="cancel_submit">
+                <button type="button" id="cancelBtn">취소</button>
+                <button type="button" id="submitBtn">등록</button>
+            </div>
+        </form>
+    </main>
+    <script src="./script/customer_service_inquiry.js"></script>
+</body>
+</html>

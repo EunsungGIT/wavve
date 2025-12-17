@@ -1,0 +1,8 @@
+@media screen and (max-width:1240px){
+    main .category_top h2 {
+        padding: 0 60px;
+    }
+    main section {
+        padding: 0 60px;
+    }
+}

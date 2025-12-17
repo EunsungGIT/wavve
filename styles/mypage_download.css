@@ -1,0 +1,38 @@
+/* 다운로드 페이지 */
+
+
+
+main .download_wrap { background: #1b1b1b;
+    
+}
+
+main .download_wrap .download_main_wrap{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+/* 다운로드내역 h1 */
+main .download_wrap  .download_title {
+    background-color:#252525 ;
+    padding: 40px 0; margin-bottom: 40px;
+}
+main .download_wrap .download_title h1 {
+    font-size: 24px; color: #fff;
+    width: 1240px; margin: 0 auto;
+
+}
+
+/* 다운로드 내역이 없어요. 부분 */
+main .download_wrap .not_download_btm {
+    text-align: center;
+    
+}
+main .download_wrap .not_download_btm .not_download {
+    padding: 78px 0px 126px;
+}
+main .download_wrap .not_download_btm .not_download img {}
+main .download_wrap .not_download_btm .not_download  p {
+    font-size: 22px; color: #a5a5a5;
+    margin-top: 10px;
+}

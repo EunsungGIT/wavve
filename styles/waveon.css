@@ -1,0 +1,133 @@
+main {
+    width: 100%; background-color: #1b1b1b
+}
+main .wave_on {max-width: 1240px; margin: 0 auto;}
+main .page_top {
+    padding: 40px 0; background-color: #252525; 
+    width: 100%; 
+    position: sticky; top: 0;
+}
+main .page_top h1 {
+    font-size: 1.5rem ;color: #fff;
+    margin: 0 34.5px;
+    max-width: 1240px; margin: 0 auto;
+}
+main .wave_on .main_contents {
+}
+main .wave_on .main_contents .contents_first {
+    max-width: 1240px ; margin: 0 auto;
+}
+main .wave_on .main_contents .contents_first .contents_benner {
+    display: flex; width: 100%; 
+}
+main .wave_on .main_contents .contents_first .contents_benner a {}
+main .wave_on .main_contents .contents_first .contents_benner a img{
+    max-width: 620px;
+}
+main .wave_on .main_contents .contents_first .contents_benner a em {
+    color: #a5a5a5; font-size: 1.5rem; display: block;
+    line-height: 58px; padding-top: 30px;
+}
+main .wave_on .main_contents .contents_first .contents_benner a span {
+    color: #a5a5a5; line-height: 25px; 
+}
+main .wave_on .main_contents .contents_first .contents_benner a span img {
+    width: 14px; position:relative; top: 1px;
+}
+main .wave_on .main_contents .contents_first .contents_benner a .show_more{
+    display: block; padding-top: 20px;
+}
+main .wave_on .main_contents .contents_second {
+    max-width: 1240px; margin: 0 auto; 
+}
+main .wave_on .main_contents .contents_second .waveon_buy {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    align-items: center; background: #1b1b1b;
+}
+main .wave_on .main_contents .contents_second .border {
+    margin-top: 18px;
+    border: 1px rgb(47, 47, 47) solid;   
+    padding: 20px 30px 0;
+    border-radius: 8px;
+}
+main .wave_on .main_contents .contents_second .waveon_buy h2 {
+    font-size: 1.5rem; color: #3887ff;
+}
+main .wave_on .main_contents .contents_second .waveon_buy a{
+    font-size: 0.875rem; width: 155px; height: 40px; background: #1351f9;
+    text-align: center; border-radius: 20px; color: #fff; line-height: 40px;
+}
+
+main .wave_on .main_contents .contents_second .second {
+    margin-top: 18px;  
+}
+main .wave_on .main_contents .contents_second .second h3 {
+    font-size: 1.125rem; margin-bottom: 8px; color: #fff;
+}
+main .wave_on .main_contents .contents_second .second .top_contents {
+    display: flex;  justify-content:space-between;
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl {
+    display: flex; flex-flow: row wrap; width: 50%;  align-items: center;
+}
+main .wave_on .main_contents .contents_second .second .top_contents strong  {
+    margin-bottom: 14px; color: #a5a5a5;
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl:nth-child(1){
+    margin-right: 20px;
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl  dt:nth-child(1){
+    width: 100%; padding-left: 0;   border-bottom: 2px solid  rgb(47, 47, 47);
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl  dt:nth-child(2){
+    border-bottom: 1px solid  rgb(47, 47, 47);
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl dd:nth-child(3){
+    border-bottom: 1px solid  rgb(47, 47, 47);
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl  dt {
+    width: 120px; padding: 16px 16px 16px 0; color: #a5a5a5;
+}
+
+main .wave_on .main_contents .contents_second .second .top_contents dl .title {
+    padding: 0; 
+}
+
+main .wave_on .main_contents .contents_second .second .boder_top {
+    border-top: 1px solid rgb(47, 47, 47);  
+    padding-top: 40px;
+}
+
+main .wave_on .main_contents .contents_second .second .top_contents dl  dd {
+    width: calc(100% - 120px); padding: 16px; font-size: 1.5rem;  text-align: right;
+    align-items: center; color: #fff;
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl .img {
+    display: flex;  justify-content: flex-end; align-items: center;
+
+
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl span em{
+    color: #a5a5a5;
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl span{
+    
+}
+main .wave_on .main_contents .contents_second .second .top_contents dl .concurrently {
+    display: flex;  justify-content: flex-start; align-items: center;
+    
+}
+main .wave_btn {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0 60px; 
+}
+main .wave_btn button {
+    width: 240px; height: 52px; border-radius: 100px;
+}
+main .wave_btn #join{
+    background: #1351f9;  color: #fff;
+}
+main .wave_btn #interests{
+    background:#5e5e5e; color: #fff;
+}

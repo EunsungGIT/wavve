@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wavve(웨이브) - 아이디 찾기</title>
+    <link rel="shortcut icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link rel="icon" href="./images/faviconV2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/login_find_id.css">
+    <link rel="stylesheet" href="./styles/reaction_type/login_find_id_reaction.css">
+</head>
+<body>
+    <!-- 채팅 -->
+    <div id="chat">
+        <button type="button" id="chat_icon"><img src="./images/common/chat.jpg" alt="채팅하기"></button>
+        <div class="chat_box">
+            <h2><img src="./images/common/logo.svg" alt="Wavve">문의하기</h2>
+            <div class="chat_message"></div>
+            <div class="user_message">
+                <input type="text" name="user_text" class="user_text" placeholder="메세지를 입력하세요.">
+                <button type="button" id="chatBtn">전송</button>
+            </div>
+        </div>
+    </div>
+    <!-- UP 버튼 -->
+    <button type="button" id="up"><img src="./images/common/up.png" alt="위로가기"></button>
+    <h1><a href="./index.html"><img src="./images/common/logo.svg" alt="Wavve"></a></h1>
+    <!-- main -->
+    <main>
+        <div class="find_id">
+            <div class="find_id_m">
+                <div class="simple">
+                    <a href="#">간편찾기</a>
+                </div>
+                <div class="certified">
+                    <a href="#">본인인증으로 찾기</a>
+                </div>
+            </div>
+            <div class="find_box">
+                <h2>
+                    아래의 아이디 찾기 수단 중<br>
+                    하나를 선택하여 진행해주세요.
+                </h2>
+                <form action="#" method="post" id="findIdFrm">
+                    <fieldset>
+                        <legend class="skip">아이디 찾기 양식</legend>
+                        <div class="radio">
+                            <input type="radio" checked name="way" id="user_num">
+                            <label for="user_num">휴대폰 번호</label>
+                            <input type="radio" name="way" id="user_email">
+                            <label for="user_email">이메일 주소</label>
+                        </div>
+                        <input type="text" id="user_name" placeholder="이름">
+                        <input type="tel" id="user_tel" placeholder="휴대폰 번호 (번호만 입력)">
+                        <button type="button" id="submitBtn">확인</button>
+                    </fieldset>
+                </form>
+                <p>
+                    <strong>SNS 아이디로 가입</strong>하신 경우<br>
+                    <strong>각 SNS 간편 로그인</strong>을 이용해주세요
+                </p>
+                <div class="sns_join">
+                    <a href="#"><img src="./images/login/kakao_icon.png" alt="카카오톡"></a>
+                    <a href="#"><img src="./images/login/t_icon.png" alt="T아이디"></a>
+                    <a href="#"><img src="./images/login/naver_icon.png" alt="네이버"></a>
+                    <a href="#"><img src="./images/login/facdbook_icon.png" alt="페이스북"></a>
+                    <a href="#"><img src="./images/login/apple_icon.png" alt="에플"></a>
+                </div>
+            </div>
+            <div class="common_box">
+                <h2>
+                    아래의 아이디 찾기 수단 중<br>
+                    하나를 선택하여 진행해주세요.
+                </h2>
+                <div class="method">
+                    <a href="#">
+                        <img src="./images/login/phone.png" alt="휴대폰 인증">
+                        <span>휴대폰 인증</span>
+                    </a>
+                    <a href="#">
+                        <img src="./images/login/pin.png" alt="아이핀 인증">
+                        <span>아이핀 인증</span>
+                    </a>
+                </div>
+                <p>본인 명의의 휴대폰/아이핀 인증을 진행한 회원만 이용이 가능합니다. (간편 가입회원 사용불가)</p>
+            </div>
+        </div>
+    </main>
+    <script src="./script/common.js"></script>
+    <script src="./script/login_find_id.js"></script>
+</body>
+</html>

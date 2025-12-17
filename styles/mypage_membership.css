@@ -1,0 +1,23 @@
+/* header nav hover */
+header .h_bottom_wrap .h_bottom nav > a:last-child {color: #fff;}
+
+/* main */
+main {background: #1b1b1b;}
+main .breakdown_title {
+    background: #252525; height: 116px;
+    margin-bottom: 40px; padding: 40px 0;
+}
+main .breakdown_title h2 {
+    margin: 0 auto; max-width: 1240px;
+    color: #fff; font-size: 1.5rem;
+}
+main .breakdown {
+    padding: 100px 0;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .breakdown img {}
+main .breakdown span {
+    color: #a5a5a5; font-size: 1.375rem;
+    margin-top: 12px;
+}
